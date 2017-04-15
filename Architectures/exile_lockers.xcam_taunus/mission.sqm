@@ -1,0 +1,1567 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=92;
+	};
+	class Camera
+	{
+		pos[]={3390.3181,668.34198,14662.347};
+		dir[]={0.54762584,-0.52905196,0.64827371};
+		up[]={0.34141305,0.8485778,0.40416041};
+		aside[]={0.7639333,-4.2392639e-007,-0.64533061};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+	};
+};
+randomSeed=2635281;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.72026426;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=86;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15901.159,123.17081,1887.9192};
+				angles[]={0,1.1497647,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=0;
+			type="Exile_Locker";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15901.889,124.21186,1886.3022};
+				angles[]={0,1.1520872,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=1;
+			type="Exile_Sign_Locker";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19569.463,100.325,823.52496};
+				angles[]={0,0.42124978,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=2;
+			type="Exile_Locker";
+			atlOffset=0.91499329;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19571.082,101.36606,822.80347};
+				angles[]={0,0.42357233,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=3;
+			type="Exile_Sign_Locker";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19265.949,117.09207,5193.1382};
+				angles[]={0,5.3443923,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4;
+			type="Exile_Locker";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19266.992,118.23002,5194.5732};
+				angles[]={0,5.346715,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=5;
+			type="Exile_Sign_Locker";
+			atlOffset=0.096893311;
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18664.959,123.53859,5260.9688};
+				angles[]={0,2.4356925,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6;
+			type="Exile_Locker";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18663.611,124.57964,5259.8149};
+				angles[]={0,2.438015,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=7;
+			type="Exile_Sign_Locker";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17584.434,166.27672,7952.8457};
+				angles[]={0,5.2927279,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8;
+			type="Exile_Locker";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17585.402,167.37804,7954.3311};
+				angles[]={0,5.2950506,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=9;
+			type="Exile_Sign_Locker";
+			atlOffset=0.060272217;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17797.1,164.30499,7982.3643};
+				angles[]={0,3.9916387,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=10;
+			type="Exile_Locker";
+			atlOffset=0.35968018;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17795.924,165.4216,7983.6934};
+				angles[]={0,3.9939609,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=11;
+			type="Exile_Sign_Locker";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19034.678,162.27107,8560.8428};
+				angles[]={0,3.6007447,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12;
+			type="Exile_Locker";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19033.084,163.31212,8561.624};
+				angles[]={0,3.6030674,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=13;
+			type="Exile_Sign_Locker";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16110.653,176.67165,7895.979};
+				angles[]={0,3.8347776,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=14;
+			type="Exile_Locker";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16109.285,177.72237,7897.1089};
+				angles[]={0,3.8371,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=15;
+			type="Exile_Sign_Locker";
+			atlOffset=0.0096740723;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16445.596,177.32883,7874.5366};
+				angles[]={0,0.80402952,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=16;
+			type="Exile_Locker";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16446.83,178.36157,7873.2627};
+				angles[]={0,0.80635208,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=17;
+			type="Exile_Sign_Locker";
+			atlOffset=0.54772949;
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16745.338,160.06367,7262.9858};
+				angles[]={0,4.7807598,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=18;
+			type="Exile_Locker";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16745.453,161.13545,7264.7563};
+				angles[]={0,4.7830825,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=19;
+			type="Exile_Sign_Locker";
+			atlOffset=0.030731201;
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13005.738,109.42764,661.63397};
+				angles[]={0,2.1921198,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=20;
+			type="Exile_Locker";
+			atlOffset=7.6293945e-006;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13004.71,110.48625,660.18872};
+				angles[]={0,2.1944423,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=21;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017562866;
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10361.399,207.90248,3637.9546};
+				angles[]={0,4.6739497,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26;
+			type="Exile_Locker";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10361.326,209.04976,3639.7268};
+				angles[]={0,4.6762719,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=27;
+			type="Exile_Sign_Locker";
+			atlOffset=0.10623169;
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11701.236,164.1011,3214.7874};
+				angles[]={0,1.5313942,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=28;
+			type="Exile_Locker";
+			atlOffset=1.1481476;
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11701.312,165.12024,3213.0151};
+				angles[]={0,1.5337167,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=29;
+			type="Exile_Sign_Locker";
+			atlOffset=1.0776062;
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11599.097,183.32912,4809.0566};
+				angles[]={0,2.3679006,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=30;
+			type="Exile_Locker";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11597.832,184.40012,4807.8135};
+				angles[]={0,2.370223,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=31;
+			type="Exile_Sign_Locker";
+			atlOffset=0.029953003;
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13592.604,218.72925,6582.3228};
+				angles[]={0,5.8242793,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=32;
+			type="Exile_Locker";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13594.191,219.6636,6583.1133};
+				angles[]={0,5.8266015,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=33;
+			type="Exile_Sign_Locker";
+			atlOffset=0.23706055;
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11506.707,221.02753,6601.895};
+				angles[]={0,4.3249254,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=34;
+			type="Exile_Locker";
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11506.032,222.24243,6603.5352};
+				angles[]={0,4.3272481,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=35;
+			type="Exile_Sign_Locker";
+			atlOffset=0.17385864;
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5951.1025,248.464,1664.5117};
+				angles[]={0,5.6607227,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=36;
+			type="Exile_Locker";
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5952.5405,249.52261,1665.5502};
+				angles[]={0,5.6630449,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=37;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017562866;
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6662.4019,247.871,2669.4709};
+				angles[]={0,1.7395984,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=38;
+			type="Exile_Locker";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6662.1089,248.92961,2667.7214};
+				angles[]={0,1.7419208,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=39;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017562866;
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6553.6504,283.93024,5041.8516};
+				angles[]={0,3.0816281,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=40;
+			type="Exile_Locker";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6551.8799,285.06458,5041.7402};
+				angles[]={0,3.0839505,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=41;
+			type="Exile_Sign_Locker";
+			atlOffset=0.093292236;
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7261.9629,316.78421,5612.9346};
+				angles[]={0,5.6820107,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=42;
+			type="Exile_Locker";
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7263.4229,317.9585,5613.9419};
+				angles[]={0,5.6843328,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=43;
+			type="Exile_Sign_Locker";
+			atlOffset=0.13323975;
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7787.1563,352.47903,5824.791};
+				angles[]={0,5.6610789,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=44;
+			type="Exile_Locker";
+			atlOffset=6.0264587;
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7788.5947,353.81177,5825.8291};
+				angles[]={0,5.6634016,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=45;
+			type="Exile_Sign_Locker";
+			atlOffset=6.1742249;
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7617.8711,334.60825,6293.4106};
+				angles[]={0,2.1269982,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=46;
+			type="Exile_Locker";
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7616.939,335.67227,6291.9014};
+				angles[]={0,2.1293206,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=47;
+			type="Exile_Sign_Locker";
+			atlOffset=0.022979736;
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7583.2495,332.38773,6303.6919};
+				angles[]={0,2.1319528,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=48;
+			type="Exile_Locker";
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7582.3101,333.45029,6302.1875};
+				angles[]={0,2.1342752,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=49;
+			type="Exile_Sign_Locker";
+			atlOffset=0.021514893;
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18894.615,162.07397,11041.184};
+				angles[]={0,0.64254326,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=50;
+			type="Exile_Locker";
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18896.039,163.07187,11040.126};
+				angles[]={0,0.64486569,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=51;
+			type="Exile_Sign_Locker";
+			atlOffset=0.90544128;
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18993.428,160.8828,10980.907};
+				angles[]={0,0.56093246,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=52;
+			type="Exile_Locker";
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18994.932,161.9131,10979.969};
+				angles[]={0,0.56325489,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=53;
+			type="Exile_Sign_Locker";
+			atlOffset=0.53112793;
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18964.633,169.54718,11371.283};
+				angles[]={0,1.6857761,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=54;
+			type="Exile_Locker";
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18964.434,170.59041,11369.521};
+				angles[]={0,1.6880985,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=55;
+			type="Exile_Sign_Locker";
+			atlOffset=0.0021820068;
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18958.162,169.64003,11401.041};
+				angles[]={0,3.6459322,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=56;
+			type="Exile_Locker";
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18956.607,170.70357,11401.893};
+				angles[]={0,3.6482546,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=57;
+			type="Exile_Sign_Locker";
+			atlOffset=0.022491455;
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19030.117,168.34583,11417.513};
+				angles[]={0,0.15665899,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=58;
+			type="Exile_Locker";
+		};
+		class Item55
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19031.871,169.33881,11417.24};
+				angles[]={0,0.15898143,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=59;
+			type="Exile_Sign_Locker";
+			atlOffset=0.45800781;
+		};
+		class Item56
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19066.813,167.7072,11407.939};
+				angles[]={0,5.1316986,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=60;
+			type="Exile_Locker";
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19067.527,168.67395,11409.561};
+				angles[]={0,5.1340208,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=61;
+			type="Exile_Sign_Locker";
+			atlOffset=0.20861816;
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19067.744,156.68837,11702.741};
+				angles[]={0,3.9835505,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=62;
+			type="Exile_Locker";
+		};
+		class Item59
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19066.559,157.79903,11704.06};
+				angles[]={0,3.985873,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=63;
+			type="Exile_Sign_Locker";
+			atlOffset=0.069610596;
+		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19042.555,158.29169,11746.313};
+				angles[]={0,0.84899193,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64;
+			type="Exile_Locker";
+		};
+		class Item61
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19043.73,159.30576,11744.986};
+				angles[]={0,0.85131437,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=65;
+			type="Exile_Sign_Locker";
+			atlOffset=0.50732422;
+		};
+		class Item62
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18205.441,400.30109,19355.363};
+				angles[]={0,5.6566114,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=66;
+			type="Exile_Locker";
+		};
+		class Item63
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18206.873,401.35971,19356.408};
+				angles[]={0,5.6589336,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=67;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017578125;
+		};
+		class Item64
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10986.831,379.28201,18056.979};
+				angles[]={0,4.3361716,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=68;
+			type="Exile_Locker";
+		};
+		class Item65
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10986.175,380.34061,18058.627};
+				angles[]={0,4.3384938,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=69;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017547607;
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11029.144,379.28201,18085.008};
+				angles[]={0,1.1839907,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=70;
+			type="Exile_Locker";
+		};
+		class Item67
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11029.817,380.34061,18083.367};
+				angles[]={0,1.1863132,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=71;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017547607;
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10781.587,497.55502,15421.421};
+				angles[]={0,3.6542852,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=72;
+			type="Exile_Locker";
+		};
+		class Item69
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10780.039,498.61362,15422.286};
+				angles[]={0,3.6566076,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=73;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017547607;
+		};
+		class Item70
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1155.6464,415.315,14106.615};
+				angles[]={0,4.1549516,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=74;
+			type="Exile_Locker";
+		};
+		class Item71
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1154.7036,416.37363,14108.118};
+				angles[]={0,4.1572742,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=75;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017578125;
+		};
+		class Item72
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4324.5283,620.07935,12720.153};
+				angles[]={0,1.7658395,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=76;
+			type="Exile_Locker";
+		};
+		class Item73
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4324.1895,621.138,12718.412};
+				angles[]={0,1.7681619,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=77;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017578125;
+		};
+		class Item74
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4357.0771,620.09552,12704.622};
+				angles[]={0,3.334017,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=78;
+			type="Exile_Locker";
+		};
+		class Item75
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4355.335,621.15417,12704.956};
+				angles[]={0,3.3363395,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=79;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017578125;
+		};
+		class Item76
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6352.7021,540.242,15032.592};
+				angles[]={0,4.6762571,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=80;
+			type="Exile_Locker";
+			atlOffset=0.24200439;
+		};
+		class Item77
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6352.6328,541.30066,15034.364};
+				angles[]={0,4.6785798,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=81;
+			type="Exile_Sign_Locker";
+			atlOffset=0.25958252;
+		};
+		class Item78
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4860.4468,631.34839,12251.358};
+				angles[]={0,6.180037,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=82;
+			type="Exile_Locker";
+		};
+		class Item79
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4862.2104,632.40704,12251.547};
+				angles[]={0,6.1823592,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=83;
+			type="Exile_Sign_Locker";
+			atlOffset=0.017578125;
+		};
+		class Item80
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17537.092,187.82361,12282.466};
+				angles[]={0,2.0404241,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=84;
+			type="Exile_Sign_Locker";
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17537.924,186.78256,12284.027};
+				angles[]={0,2.0239987,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=85;
+			type="Exile_Locker";
+		};
+		class Item82
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18472.396,170.82713,9819.3984};
+				angles[]={0,1.4106532,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=88;
+			type="Exile_Sign_Locker";
+			atlOffset=1.1623688;
+		};
+		class Item83
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18472.148,169.80959,9821.1504};
+				angles[]={0,1.3942279,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=89;
+			type="Exile_Locker";
+		};
+		class Item84
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4551.2607,621.12042,12671.255};
+				angles[]={0,2.6300805,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=90;
+			type="Exile_Sign_Locker";
+		};
+		class Item85
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4552.8203,620.07935,12672.091};
+				angles[]={-0,2.6136551,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=91;
+			type="Exile_Locker";
+		};
+	};
+};

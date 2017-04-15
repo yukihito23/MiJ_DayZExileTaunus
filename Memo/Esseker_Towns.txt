@@ -1,0 +1,42 @@
+//Esseker
+
+    [10074,5623,300], //Esseker City Center
+    [8785,5695,300], //Donator Park
+    [8301,5684,300], //Esseker Industrial Zone
+    [10722,5503,300], //Lower Esseker
+    [2799,11262,300], //DoubleTap Gun Range
+    [6655,3908,300], //Plava Vrana Military Complex
+    [3104,6156,300], //Danilov Grad
+    [9963,10879,300], //Gromada
+    [7372,5310,300], //Matija Weiss College
+    [4972,10318,300], //Nekrashuk
+    [8838,5078,300], //River Drava
+    [2656,1269,300], //Grozna Mountain
+    [6347,6164,300], //Gulash
+    [7153,9348,300], //Tuk"
+    [6433,5525,300], //Neptune Resort
+    [2680,4688,300], //Kupres
+    [1968,4217,300], //Krupa
+    [10010,9941,300], //Borosh
+    [1159,10316,300], //Camp Spencer
+    [4961,5241,300], //Kula
+    [9014,7945,300], //Pilana Sawmill
+    [10131,7931,300], //Chardak Resort
+    [11862,8002,300], //Novi Grad
+    [4004,9305,300], //ES Petrol
+    [6265,6875,300], //Lug
+    [8058,9508,300], //In Memoria Titanis
+    [9984,4866,300], //Adela Airfield
+    [5511,7439,300], //Focha
+    [3564,6982,300], //Melina
+    [2077,7802,300], //Rama
+    [10471,7092,300], //ZelenGora Mountains
+    [7641,10151,300], //Igman Military base
+    [10081,10140,300], //Lokve
+    [11065,9034,300], //Kamen Quarry
+    [4733,4691,300], //Scrapyard
+    [3385,4666,300], //Bayer
+    [5146,4684,300], //Plomino Power Station
+    [8680,5473,300], //Old Esseker
+    [4860,8080,300], //Chokory
+    [7654,6893,300] //Posestra
