@@ -1,0 +1,125 @@
+///////////////////////////////////////////////////////////////////////////////
+// Server Settings - Modify at will
+///////////////////////////////////////////////////////////////////////////////
+author = "Modified by Made in Japan (MiJ)";
+onLoadName = "DayZ Exile in Taunus";
+onLoadMission= "https://units.arma3.com/unit/mij/";
+loadScreen = "load.jpg"; 
+disableChannels[] = {0, 2};
+OnLoadIntro = "";
+OnLoadIntroTime = false;
+OnLoadMissionTime = false;
+
+class Header
+{
+    gameType = Survive; // Do NOT change this
+    minPlayers = 1;
+    maxPlayers = 30;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// Exile Settings - Do not change these!
+///////////////////////////////////////////////////////////////////////////////
+forceRotorLibSimulation = 2;
+skipLobby = 1;
+joinUnassigned = 1;
+respawn = "BASE";
+respawnDelay = 120;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1; 
+respawnTemplates[] = {"Exile"};
+corpseManagerMode = 0;
+corpseLimit = 20;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+scriptedPlayer = 1;
+disabledAI = 1;
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+allowFunctionsLog = 1;
+enableDebugConsole = 0; 
+allowFunctionsRecompile = 0;
+showSquadRadar = 0;
+showUAVFeed = 0;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+reviveBleedOutDelay = 120;
+
+showHUD[] = 
+{
+    true,   // Scripted HUD (same as showHUD command)
+    true,   // Vehicle + soldier info
+    true,   // Vehicle radar 
+    true,   // Vehicle compass
+    true,   // Tank direction indicator
+    false,  // Commanding menu
+    false,  // Group Bar
+    true,   // HUD Weapon Cursors
+    false   // Squad Radar
+};
+
+#include "config.cpp"
+#include "sounds.hpp"
+
+class CfgFunctions
+{
+	//#include "vip_cmn\fn\vip_cmn_fnc.hpp"
+	//#include "vip_lit\fn\vip_lit_fnc.hpp"
+};
+
+class CfgRemoteExec
+{
+    class Commands
+    {
+		mode = 1;
+		jip = 0;
+    };
+    class Functions
+    {
+        mode = 1;
+        jip = 0;
+        class ExileServer_system_network_dispatchIncomingMessage { allowedTargets = 2; };
+		//Admin Tool Kit
+		class AdminToolkit_network_receiveRequest { allowedTargets = 2; };
+		//class slz_fnc_assigncurator {allowedTargets = 2;};
+		///////////////////////////////
+		//class SA_Simulate_Towing 			{ allowedTargets=0; }; 
+		//class SA_Attach_Tow_Ropes 		{ allowedTargets=0; }; 
+		//class SA_Take_Tow_Ropes 			{ allowedTargets=0; }; 
+		//class SA_Put_Away_Tow_Ropes 		{ allowedTargets=0; }; 
+		//class SA_Pickup_Tow_Ropes 		{ allowedTargets=0; }; 
+		//class SA_Drop_Tow_Ropes  			{ allowedTargets=0; }; 
+		//class SA_Set_Owner 				{ allowedTargets=2; }; 
+		//class SA_Hint  					{ allowedTargets=1; }; 
+		//class SA_Hide_Object_Global  		{ allowedTargets=2; }; 
+		///////////////////////////////
+    };
+};
+
+class RscTextNS
+{
+    idc = -1;
+    type = 0;
+    style = 2;
+    LineSpacing = 1.0;
+    h = 0.04;
+    ColorBackground[] = {1,1,1,0.2};
+    ColorText[] = {0.1,0.1,0.1,1};
+    font = "BitStream";
+    SizeEx = 0.025;
+
+};
+
+class RscTitles
+{
+	#include "VEMFr_client\gui\RscDisplayVEMFrClient.hpp" //VEMP AI Mission script
+	#include "VEMFr_client\gui\RscDisplayBaseAttack.hpp" //VEMP AI Mission script
+	#include "statusIcons\StatusIcons.hpp" //Dynamic Status Icon Script
+    #include "blowout_rsc.cpp" //Exile Reborn EMP Blast Script
+};
