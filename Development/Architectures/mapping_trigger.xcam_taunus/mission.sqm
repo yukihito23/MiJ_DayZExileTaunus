@@ -1,0 +1,71 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={6990.9023,746.49615,5024.4111};
+		dir[]={0.12438861,-0.56159014,0.81802189};
+		up[]={0.084425293,0.82741374,0.55521083};
+		aside[]={0.98864233,-1.0303847e-007,-0.15033303};
+	};
+};
+binarizationWanted=0;
+class AddonsMetaData
+{
+};
+randomSeed=7866397;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Trigger";
+			position[]={10284.376,518.64429,10263.137};
+			class Attributes
+			{
+				onActivation="dmy = [""Random"",thisTrigger] execvm ""addons\jboy_birds\JBOY_BirdAttack.sqf""; ";
+				sizeA=10024;
+				sizeB=10024;
+				sizeC=10024;
+				activationBy="GUER";
+				isRectangle=1;
+			};
+			id=0;
+			type="EmptyDetectorArea10x10";
+			atlOffset=6.1035156e-005;
+		};
+	};
+};
