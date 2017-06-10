@@ -1,0 +1,260 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=28;
+	};
+	class Camera
+	{
+		pos[]={6025.3853,379.18478,8911.5928};
+		dir[]={0.50198466,-0.50731707,-0.70048505};
+		up[]={0.29552016,0.86174828,-0.41237718};
+		aside[]={-0.81284928,3.8649887e-007,-0.58251107};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+	};
+};
+randomSeed=1644978;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.80000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.80000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2001;
+		month=3;
+		day=5;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=9;
+		class Item0
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9591.5088,16.379917,9560.5693};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=16;
+					type="Exile_Trader_Hardware";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=15;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9591.7744,17.283558,9564.0938};
+				angles[]={0,3.1531243,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=17;
+			type="Exile_Sign_Hardware_Small";
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9592.0684,14.628915,9598.6865};
+						angles[]={0,3.6424952,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=19;
+					type="Exile_Trader_Food";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=18;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9592.3027,14.899351,9596.0654};
+				angles[]={0,0.34134483,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=20;
+			type="Exile_Sign_Food_Small";
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9583.1328,15.858863,9562.8271};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=22;
+					type="Exile_Trader_Vehicle";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=21;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9581.6885,16.907434,9564.7334};
+				angles[]={0,3.1425917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=23;
+			type="Exile_Sign_Vehicles_Small";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9550.1885,32.028236,9673.75};
+				angles[]={0,3.1934614,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=24;
+			type="Exile_Sign_TraderCity";
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9576.1299,14.863898,9582.1201};
+						angles[]={0,0.96137291,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=26;
+					type="Exile_Trader_WasteDump";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=25;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9576.3975,16.123539,9580.2676};
+				angles[]={0,4.0815239,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=27;
+			type="Exile_Sign_WasteDump_Small";
+		};
+	};
+};
