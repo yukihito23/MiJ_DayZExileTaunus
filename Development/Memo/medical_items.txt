@@ -1,0 +1,26 @@
+CraftUnPackFAK
+
+Exitem_bloodbag
+Exitem_antibiotic
+Exile_Item_Vishpirin
+Exile_Item_Heatpack
+Exitem_painkillers
+Exitem_dressing
+Exile_Item_Bandage
+Exitem_disinfectant
+Exitem_vitamins
+Exitem_purificationtablets
+Exitem_bandage_dirty
+
+class FirstAidKit
+class Exile_Item_InstaDoc
+class Exile_Item_Vishpirin
+class Exile_Item_Bandage
+class Exile_Item_Heatpack
+//class Exile_Item_Defibrillator
+
+
+{2, Exile_Item_Vishpirin},
+{4, Exitem_dressing},
+{1, Exile_Item_Heatpack},
+{1, Exitem_disinfectant}
