@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=522;
+		nextID=523;
 	};
 	class Camera
 	{
-		pos[]={5161.4351,597.67053,7993.0381};
-		dir[]={0.4435873,-0.84990108,-0.28489003};
-		up[]={0.71518207,0.5267818,-0.45931736};
-		aside[]={-0.54043996,-5.3175609e-006,-0.8415094};
+		pos[]={5157.9263,569.26422,7979.3359};
+		dir[]={0.74425703,-0.66802609,-0.0088739973};
+		up[]={0.66816437,0.74394065,-0.0079646716};
+		aside[]={-0.011912891,-1.8198225e-006,-1.0000303};
 	};
 };
 binarizationWanted=0;
@@ -58,13 +58,14 @@ addons[]=
 	"xCam_Woodworks",
 	"xCam_Indust_Stairs",
 	"CUP_Buildings_Config",
-	"A3_Supplies_F_Heli_CargoNets"
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Signs_F_Signs_Ad"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=28;
+		items=29;
 		class Item0
 		{
 			className="exile_client";
@@ -225,6 +226,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item28
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=3204536;
@@ -254,7 +262,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=226;
+		items=227;
 		class Item0
 		{
 			dataType="Group";
@@ -4297,6 +4305,22 @@ class Mission
 			id=520;
 			type="CargoNet_01_barrels_F";
 			atlOffset=1.0264282;
+		};
+		class Item226
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5162.3999,565.05109,7978.5537};
+				angles[]={0,1.567571,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=522;
+			type="SignAd_Sponsor_F";
 		};
 	};
 };

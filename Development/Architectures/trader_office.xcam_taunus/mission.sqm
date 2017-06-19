@@ -8,14 +8,14 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=1201;
+		nextID=1203;
 	};
 	class Camera
 	{
-		pos[]={8433.1318,666.72412,10996.881};
-		dir[]={0.67337376,-0.68908405,0.26828149};
-		up[]={0.64020473,0.72458327,0.25507039};
-		aside[]={0.37014651,1.1830052e-006,-0.92904353};
+		pos[]={8453.4248,633.4295,11010.427};
+		dir[]={0.77452111,-0.43334252,0.46079424};
+		up[]={0.37241459,0.90122932,0.22156966};
+		aside[]={0.51129681,3.8743019e-006,-0.85940421};
 	};
 };
 binarizationWanted=0;
@@ -56,13 +56,14 @@ addons[]=
 	"A3_Structures_F_Items_Valuables",
 	"A3_Structures_F_Bootcamp_Items_Sport",
 	"xCam_Indust_Stairs",
-	"MBG_Buildings_3"
+	"MBG_Buildings_3",
+	"A3_Signs_F_Signs_Ad"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=28;
+		items=29;
 		class Item0
 		{
 			className="exile_client";
@@ -219,6 +220,13 @@ class AddonsMetaData
 			className="MBG_Buildings_3";
 			name="MBG_Buildings_3";
 		};
+		class Item28
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=1059785;
@@ -248,7 +256,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=255;
+		items=256;
 		class Item0
 		{
 			dataType="Object";
@@ -5035,6 +5043,22 @@ class Mission
 			id=1200;
 			type="CUP_Dhangar_psacistul";
 			atlOffset=0.067321777;
+		};
+		class Item255
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8456.2822,631.02435,11012.313};
+				angles[]={0,0.95496428,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1202;
+			type="SignAd_Sponsor_F";
 		};
 	};
 };

@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=402;
+		nextID=403;
 	};
 	class Camera
 	{
-		pos[]={15527.772,358.63843,18310.385};
-		dir[]={0.097360358,-0.79633254,0.59716815};
-		up[]={0.12814794,0.60477966,0.7860043};
-		aside[]={0.98707741,2.4211186e-006,-0.1609358};
+		pos[]={15562.481,316.12344,18294.232};
+		dir[]={0.010170338,-0.49217328,0.87057209};
+		up[]={0.0057514785,0.87039983,0.49229556};
+		aside[]={1.0000422,-9.5169526e-008,-0.011689188};
 	};
 };
 binarizationWanted=0;
@@ -57,13 +57,14 @@ addons[]=
 	"CUP_CABuildings2_Misc_Cargo",
 	"A3_Structures_F_Heli_Ind_Cargo",
 	"CUP_CAMisc_E_WF",
-	"A3_Structures_F_Heli_Civ_Market"
+	"A3_Structures_F_Heli_Civ_Market",
+	"A3_Signs_F_Signs_Ad"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="exile_client";
@@ -207,6 +208,13 @@ class AddonsMetaData
 			className="CUP_CAMisc_E_WF";
 			name="CUP_CAMisc_E_WF";
 		};
+		class Item25
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=16026065;
@@ -236,7 +244,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=278;
+		items=279;
 		class Item0
 		{
 			dataType="Object";
@@ -5284,6 +5292,21 @@ class Mission
 			};
 			id=401;
 			type="Land_Wreck_Truck_dropside_F";
+		};
+		class Item278
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15562.886,311.14105,18302.318};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=402;
+			type="SignAd_Sponsor_F";
 		};
 	};
 };

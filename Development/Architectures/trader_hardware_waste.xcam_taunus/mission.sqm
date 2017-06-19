@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=174;
+		nextID=175;
 	};
 	class Camera
 	{
-		pos[]={13982.035,299.36118,10539.845};
-		dir[]={0.6867466,-0.64621234,0.33323044};
-		up[]={0.58140868,0.76312059,0.28211612};
-		aside[]={0.43660676,-6.7699002e-006,-0.89978129};
+		pos[]={13988.413,261.21936,10552.224};
+		dir[]={0.7536217,-0.60472143,-0.25811282};
+		up[]={0.57213545,0.79639196,-0.1959554};
+		aside[]={-0.32405114,-6.7879737e-006,-0.94616127};
 	};
 };
 binarizationWanted=0;
@@ -47,13 +47,14 @@ addons[]=
 	"CUP_StandaloneTerrains_Core_Faction",
 	"plp_containers",
 	"CUP_Misc_e_Config",
-	"CUP_Editor_Buildings_Config"
+	"CUP_Editor_Buildings_Config",
+	"A3_Signs_F_Signs_Ad"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="exile_client";
@@ -153,6 +154,13 @@ class AddonsMetaData
 			className="CUP_Editor_Buildings_Config";
 			name="CUP_Editor_Buildings_Config";
 		};
+		class Item17
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=16186669;
@@ -182,7 +190,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=102;
+		items=103;
 		class Item0
 		{
 			dataType="Object";
@@ -2143,6 +2151,46 @@ class Mission
 			};
 			id=172;
 			type="Land_fort_bagfence_round";
+		};
+		class Item102
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13993.714,257.84253,10549.798};
+				angles[]={0,1.8853046,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=174;
+			type="SignAd_Sponsor_F";
+			atlOffset=0.0002746582;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType (parseNumber _value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

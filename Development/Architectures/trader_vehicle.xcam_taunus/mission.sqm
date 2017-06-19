@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=76;
+		nextID=77;
 	};
 	class Camera
 	{
-		pos[]={15217.473,187.91103,4936.5435};
-		dir[]={-0.88718498,-0.42126822,-0.18893358};
-		up[]={-0.41242975,0.90673292,-0.087832153};
-		aside[]={-0.20831294,2.0302832e-007,0.97818214};
+		pos[]={15236.066,164.14107,4915.2871};
+		dir[]={-0.42222717,-0.46577349,0.77784181};
+		up[]={-0.22238897,0.88468832,0.40969041};
+		aside[]={0.87897068,-1.0902295e-006,0.47711998};
 	};
 };
 binarizationWanted=0;
@@ -36,13 +36,14 @@ addons[]=
 	"xCam_Indust_Stairs",
 	"CUP_CAMisc",
 	"TaunusObjects",
-	"A3_Structures_F_Items_Vessels"
+	"A3_Structures_F_Items_Vessels",
+	"A3_Signs_F_Signs_Ad"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			className="A3_Structures_F_Wrecks";
@@ -125,6 +126,13 @@ class AddonsMetaData
 			className="TaunusObjects";
 			name="TaunusObjects";
 		};
+		class Item14
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=6445301;
@@ -154,7 +162,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=39;
+		items=40;
 		class Item0
 		{
 			dataType="Object";
@@ -910,6 +918,46 @@ class Mission
 			id=75;
 			type="tob_PaintBrushBig";
 			atlOffset=0.055328369;
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15234.602,161.82185,4918.5679};
+				angles[]={0,5.7184839,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=76;
+			type="SignAd_Sponsor_F";
+			atlOffset=1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType (parseNumber _value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
