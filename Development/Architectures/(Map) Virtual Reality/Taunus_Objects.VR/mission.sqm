@@ -1,0 +1,1427 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=94;
+	};
+	class Camera
+	{
+		pos[]={1123.2035,20.621319,5438.1919};
+		dir[]={0.51287061,-0.61004722,-0.6040256};
+		up[]={0.39484584,0.79236692,-0.46502486};
+		aside[]={-0.76229948,-1.7601997e-007,-0.64725816};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"CUP_CAStructures_E_Misc_Misc_Garbage",
+	"CUP_Misc3_Config",
+	"A3_Structures_F_Civ_Garbage",
+	"A3_Structures_F_EPC_Civ_Garbage",
+	"A3_Structures_F_EPB_Civ_Garbage",
+	"A3_Structures_F_Exp_Civilian_Accessories",
+	"CUP_A1_EditorObjects",
+	"CUP_A2_EditorObjects",
+	"plp_containers",
+	"TaunusObjects",
+	"plp_beachobjects"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=11;
+		class Item0
+		{
+			className="CUP_CAStructures_E_Misc_Misc_Garbage";
+			name="CUP_CAStructures_E_Misc_Misc_Garbage";
+		};
+		class Item1
+		{
+			className="CUP_Misc3_Config";
+			name="CUP_Misc3_Config";
+		};
+		class Item2
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_EPC";
+			name="Arma 3 Win Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Structures_F_EPB";
+			name="Arma 3 Adapt Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Structures_F_Exp_Civilian";
+			name="Arma 3 Apex - Civilian Buildings";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="CUP_A1_EditorObjects";
+			name="CUP_A1_EditorObjects";
+			author="NeoArmageddon";
+		};
+		class Item7
+		{
+			className="CUP_A2_EditorObjects";
+			name="CUP_A2_EditorObjects";
+			author="MemphisBelle";
+		};
+		class Item8
+		{
+			className="plp_containers";
+			name="plp_containers";
+		};
+		class Item9
+		{
+			className="TaunusObjects";
+			name="TaunusObjects";
+		};
+		class Item10
+		{
+			className="plp_beachobjects";
+			name="plp_beachobjects";
+		};
+	};
+};
+randomSeed=11745997;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=82;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1141.1151,5.386692,5418.5728};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1553798104;
+			};
+			id=0;
+			type="Land_Misc_Garb_Heap_EP1";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1140.4183,5.4913292,5416.6201};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=1;
+			type="Garbage_can";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.5363,5.8415184,5418.9961};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=2;
+			type="Garbage_container";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1140.9594,5.4336381,5422.1113};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4;
+			type="Land_GarbageBags_F";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.6213,5.6138449,5420.8188};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=5;
+			type="Land_GarbageBarrel_01_F";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1144.8433,5.2563133,5418.1694};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1084227584;
+			};
+			id=6;
+			type="Land_GarbagePallet_F";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1144.9274,5.4516373,5422.084};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=7;
+			type="Land_GarbageWashingMachine_F";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1140.504,5.7839775,5416.3706};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1084227584;
+			};
+			id=8;
+			type="Land_GarbageContainer_closed_F";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1138.0198,5.7385011,5416.2598};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=9;
+			type="Land_GarbageContainer_open_F";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1142.9504,5.5140829,5415.8242};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=492852422;
+			};
+			id=10;
+			type="Land_GarbageBin_01_F";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.5145,5.5003014,5422.1646};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=2053730927;
+			};
+			id=11;
+			type="Land_GarbageBin_02_F";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1128.4952,5.4516373,5415.1543};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12;
+			type="CUP_A1_garbage_misc";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1132.4287,5.2563133,5411.668};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=13;
+			type="CUP_A1_garbage_paleta";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.3796,5,5417.3955};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=14;
+			type="CUP_A1_ground_garbage_long";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1128.3669,5,5411.0356};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=15;
+			type="CUP_A1_ground_garbage_square3";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1128.6207,5,5419.6494};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=16;
+			type="CUP_A1_ground_garbage_square5";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.3796,5,5417.3955};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=17;
+			type="CUP_A2_garbage_long";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1128.6254,5.4516373,5423.8857};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=18;
+			type="CUP_A2_garbage_misc";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1128.783,5.2563133,5427.6211};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=19;
+			type="CUP_A2_garbage_paleta";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1132.3738,5,5422.7876};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1649069452;
+			};
+			id=20;
+			type="CUP_A2_garbage_square3";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1132.4254,5,5427.4897};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=2136825613;
+			};
+			id=21;
+			type="CUP_A2_garbage_square5";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1140.9702,5.0519161,5425.9922};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-382139903;
+			};
+			id=22;
+			type="Land_Garbage_square3_F";
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1144.4844,5.0394359,5426.4868};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-601687180;
+			};
+			id=23;
+			type="Land_Garbage_square5_F";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.5963,5.0501518,5426.46};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=318831708;
+			};
+			id=24;
+			type="Land_Garbage_line_F";
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5989871,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26;
+			type="plp_ctm_RecycleBinBlack";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.58284,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=27;
+			type="plp_ctm_RecycleBinBlackOpenTrash";
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5762177,5433.6704};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=28;
+			type="plp_ctm_RecycleBinBlackOpenEmpty";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.3611193,5433.6777};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=29;
+			type="plp_ctm_RecycleBinBlackSide";
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5989871,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=30;
+			type="plp_ctm_RecycleBinBlue";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.58284,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=31;
+			type="plp_ctm_RecycleBinBlueOpenTrash";
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5762177,5433.6704};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1072493876;
+			};
+			id=32;
+			type="plp_ctm_RecycleBinBlueOpenEmpty";
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.3611193,5433.6777};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1157846300;
+			};
+			id=33;
+			type="plp_ctm_RecycleBinBlueSide";
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5989871,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1998112;
+			};
+			id=34;
+			type="plp_ctm_RecycleBinGreen";
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5762177,5433.6704};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1512620288;
+			};
+			id=35;
+			type="plp_ctm_RecycleBinGreenOpenEmpty";
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.58284,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1834954543;
+			};
+			id=36;
+			type="plp_ctm_RecycleBinGreenOpenTrash";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.3611193,5433.6777};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=37;
+			type="plp_ctm_RecycleBinGreenSide";
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5989871,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=38;
+			type="plp_ctm_RecycleBinYellow";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.58284,5433.6699};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=39;
+			type="plp_ctm_RecycleBinYellowOpenTrash";
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.5762177,5433.6704};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=543517794;
+			};
+			id=40;
+			type="plp_ctm_RecycleBinYellowOpenEmpty";
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8872,5.3611193,5433.6777};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=74;
+			};
+			id=41;
+			type="plp_ctm_RecycleBinYellowSide";
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1867013999;
+			};
+			id=42;
+			type="plp_cts_RecycleBinBlack";
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=3040356;
+			};
+			id=43;
+			type="plp_cts_RecycleBinBlackOpenTrash";
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5775805,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1448307564;
+			};
+			id=44;
+			type="plp_cts_RecycleBinBlackOpenEmpty";
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.9172,5.3348141,5433.7178};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1129469523;
+			};
+			id=45;
+			type="plp_cts_RecycleBinBlackSide";
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=80;
+			};
+			id=46;
+			type="plp_cts_RecycleBinBlue";
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1383502976;
+			};
+			id=47;
+			type="plp_cts_RecycleBinBlueOpenTrash";
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5775805,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1182716392;
+			};
+			id=48;
+			type="plp_cts_RecycleBinBlueOpenEmpty";
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.9172,5.3348141,5433.7178};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=543517794;
+			};
+			id=49;
+			type="plp_cts_RecycleBinBlueSide";
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1282300969;
+			};
+			id=50;
+			type="plp_cts_RecycleBinGreen";
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5775805,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=51;
+			type="plp_cts_RecycleBinGreenOpenEmpty";
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=52;
+			type="plp_cts_RecycleBinGreenOpenTrash";
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.9172,5.3348141,5433.7178};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-139969535;
+			};
+			id=53;
+			type="plp_cts_RecycleBinGreenSide";
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=54;
+			type="plp_cts_RecycleBinYellow";
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=55;
+			type="plp_cts_RecycleBinYellowOpenTrash";
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5775805,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-533069439;
+			};
+			id=56;
+			type="plp_cts_RecycleBinYellowOpenEmpty";
+		};
+		class Item55
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.9172,5.3348141,5433.7178};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=57;
+			type="plp_cts_RecycleBinYellowSide";
+		};
+		class Item56
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1610542204;
+			};
+			id=58;
+			type="tob_RecycleBinBlack";
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1029447999;
+			};
+			id=59;
+			type="tob_RecycleBinBlackOpenTrash";
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.9172,5.3348141,5433.7178};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=60;
+			type="tob_RecycleBinBlackSide";
+		};
+		class Item59
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=61;
+			type="tob_RecycleBinBlue";
+		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=62;
+			type="tob_RecycleBinBlueOpenTrash";
+		};
+		class Item61
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=63;
+			type="tob_RecycleBinBrown";
+		};
+		class Item62
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1015021565;
+			};
+			id=64;
+			type="tob_RecycleBinBrownOpenTrash";
+		};
+		class Item63
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.6003518,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=8421376;
+			};
+			id=65;
+			type="tob_RecycleBinYellow";
+		};
+		class Item64
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1137.8864,5.5842032,5433.7173};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=8421376;
+			};
+			id=66;
+			type="tob_RecycleBinYellowOpenTrash";
+		};
+		class Item65
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1132.6373,5.7152333,5433.7798};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=723058247;
+			};
+			id=76;
+			type="plp_ctm_TrashcanCityPlasticOrange";
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1131.7826,4.8784285,5433.603};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-402259456;
+			};
+			id=77;
+			type="tob_PassShelterTrashcan";
+		};
+		class Item67
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.5906,5.3627558,5433.6919};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=79;
+			type="plp_bo_WoodenTrashcan";
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2932,5.45508,5434.0737};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=279385375;
+			};
+			id=80;
+			type="plp_cts_TrashcanCityMetalBrushed";
+		};
+		class Item69
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.48912,5434.0654};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=81;
+			type="plp_cts_TrashcanCityPark";
+		};
+		class Item70
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.2854953,5434.0654};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=82;
+			type="plp_cts_TrashcanHouseBathroom";
+		};
+		class Item71
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.317,5.1420002,5434.0654};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=83;
+			type="plp_cts_TrashcanHouseBathroomSide";
+		};
+		class Item72
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.3017497,5434.0459};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1020445714;
+			};
+			id=84;
+			type="plp_cts_TrashcanHouseGeneric";
+		};
+		class Item73
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.4492164,5434.0454};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1020445707;
+			};
+			id=85;
+			type="plp_cts_TrashcanHouseGenericOpen";
+		};
+		class Item74
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.4043,5.1903372,5434.0454};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1016942846;
+			};
+			id=86;
+			type="plp_cts_TrashcanHouseGenericOpenSide";
+		};
+		class Item75
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2982,5.1900001,5434.0513};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=1015907684;
+			};
+			id=87;
+			type="plp_cts_TrashcanHouseGenericSide";
+		};
+		class Item76
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2968,5.2755399,5434.0063};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=88;
+			type="plp_cts_TrashcanHouseSmall";
+		};
+		class Item77
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2968,5.1906195,5434.0811};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=89;
+			type="plp_cts_TrashcanHouseSmallSide";
+		};
+		class Item78
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.4373879,5434.0654};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1595265918;
+			};
+			id=90;
+			type="plp_cts_TrashcanIndPurple";
+		};
+		class Item79
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2939,5.23,5434.0654};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=91;
+			type="plp_cts_TrashcanIndPurpleSide";
+		};
+		class Item80
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2965,5.3379087,5434.0195};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=2080107010;
+			};
+			id=92;
+			type="plp_cts_TrashcanIndRed";
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1133.2844,5.2049999,5434.0195};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				aiRadarUsage=-1;
+			};
+			id=93;
+			type="plp_cts_TrashcanIndRedSide";
+		};
+	};
+};

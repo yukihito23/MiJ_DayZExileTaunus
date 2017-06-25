@@ -1,4 +1,4 @@
-version=52;
+version=53;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=535;
+		nextID=561;
 	};
 	class Camera
 	{
-		pos[]={3334.8862,79.989487,2966.6809};
-		dir[]={-0.10726433,-0.4855693,0.86762249};
-		up[]={-0.059578575,0.87419194,0.48191649};
-		aside[]={0.99247026,2.2260065e-007,0.12269847};
+		pos[]={3513.5984,89.36422,3003.7773};
+		dir[]={-0.036322486,-0.64965051,0.75951874};
+		up[]={-0.031040067,0.76010823,0.64901865};
+		aside[]={0.99896169,-4.1614749e-007,0.0477768};
 	};
 };
 binarizationWanted=0;
@@ -26,18 +26,21 @@ addons[]=
 	"mbg_killhouses_a3",
 	"MBG_Buildings_3",
 	"MBG_Buildings_2",
-	"deox_haus",
+	"deox_obj",
 	"MBG_Noe_Buildings",
 	"A3_Characters_F",
+	"deox_obj2",
 	"Max_FuelStation",
 	"Maxx_RFTower",
-	"xCam_Indust_Stairs"
+	"xCam_Indust_Stairs",
+	"CUP_A1_EditorObjects",
+	"CUP_A2_EditorObjects"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=14;
 		class Item0
 		{
 			className="TaunusObjects";
@@ -65,8 +68,8 @@ class AddonsMetaData
 		};
 		class Item5
 		{
-			className="deox_haus";
-			name="deox_haus";
+			className="deox_obj";
+			name="deox_obj";
 		};
 		class Item6
 		{
@@ -78,22 +81,39 @@ class AddonsMetaData
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item8
+		{
+			className="deox_obj2";
+			name="deox_obj2";
+		};
+		class Item9
 		{
 			className="Max_FuelStation";
 			name="Max_FuelStation";
 		};
-		class Item9
+		class Item10
 		{
 			className="Maxx_RFTower";
 			name="Maxx_RFTower";
 		};
-		class Item10
+		class Item11
 		{
 			className="xCam_Indust_Stairs";
 			name="xCam_Indust_Stairs";
+		};
+		class Item12
+		{
+			className="CUP_A1_EditorObjects";
+			name="CUP_A1_EditorObjects";
+			author="NeoArmageddon";
+		};
+		class Item13
+		{
+			className="CUP_A2_EditorObjects";
+			name="CUP_A2_EditorObjects";
+			author="MemphisBelle";
 		};
 	};
 };
@@ -123,7 +143,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=87;
+		items=106;
 		class Item0
 		{
 			dataType="Object";
@@ -742,7 +762,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3499.677,10.431969,3185.731};
+				position[]={3498.2253,10.431969,3187.7336};
 			};
 			side="Empty";
 			flags=5;
@@ -802,7 +822,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3500.2983,10.431969,3171.3098};
+				position[]={3499.1101,10.431969,3172.0178};
 			};
 			side="Empty";
 			flags=5;
@@ -862,7 +882,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3493.719,10.431969,3206.0981};
+				position[]={3492.5261,10.431969,3207.8188};
 			};
 			side="Empty";
 			flags=5;
@@ -1089,16 +1109,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3464.95,16.225292,3074.6902};
+				position[]={3464.95,17.04011,3074.6902};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=106;
 			type="MBG_Panelak3";
-			atlOffset=9.5367432e-007;
+			atlOffset=0.81481838;
 		};
 		class Item64
 		{
@@ -1493,6 +1512,291 @@ class Mission
 			};
 			id=510;
 			type="tob_Playplace";
+		};
+		class Item87
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3425.2209,6.7763615,3056.459};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=535;
+			type="CUP_A1_Panelak";
+		};
+		class Item88
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3445.2368,5,3057.9202};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=536;
+			type="CUP_A1_Panelak2";
+		};
+		class Item89
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3465.084,16.577019,3054.2532};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=537;
+			type="CUP_A1_Panelak3";
+			atlOffset=0.85599995;
+		};
+		class Item90
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3402.802,7.187047,3055.7539};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=538;
+			type="CUP_A2_panelak";
+			atlOffset=0.41068554;
+		};
+		class Item91
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3402.5933,5,3075.3201};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=539;
+			type="CUP_A2_panelak2";
+		};
+		class Item92
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3384.5908,15.049577,3071.3127};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=540;
+			type="CUP_A2_panelak3";
+			atlOffset=0.85599995;
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3499.345,8.4143248,3134.6072};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=546;
+			type="Land_MBG_GER_HUS_3";
+		};
+		class Item94
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3515.0881,8.8671293,3148.4377};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=547;
+			type="Land_MBG_GER_RHUS_1";
+		};
+		class Item95
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3548.7314,8.8671293,3147.1897};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=548;
+			type="Land_MBG_GER_RHUS_2";
+		};
+		class Item96
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3559.0583,8.8671293,3146.8918};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=549;
+			type="Land_MBG_GER_RHUS_5";
+		};
+		class Item97
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3538.8152,8.8671293,3147.2153};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=550;
+			type="Land_MBG_GER_RHUS_3";
+		};
+		class Item98
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3499.3042,8.4143248,3073.4172};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=551;
+			type="Land_MBG_GER_HUS_2";
+		};
+		class Item99
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3497.6099,8.4143248,3113.3228};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=552;
+			type="Land_MBG_GER_HUS_1";
+		};
+		class Item100
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3498.6721,8.4143248,3095.031};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=553;
+			type="Land_MBG_GER_HUS_4";
+		};
+		class Item101
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3528.1526,8.8671293,3147.7947};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=554;
+			type="Land_MBG_GER_RHUS_4";
+		};
+		class Item102
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3469.7595,6.1610937,3140.874};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=555;
+			type="Land_MBG_Garage_Single_A";
+		};
+		class Item103
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3474.5193,6.1610937,3140.8887};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=556;
+			type="Land_MBG_Garage_Single_B";
+		};
+		class Item104
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3479.2671,6.1610937,3140.6934};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=557;
+			type="Land_MBG_Garage_Single_C";
+		};
+		class Item105
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3484.0012,6.1610937,3140.6626};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=558;
+			type="Land_MBG_Garage_Single_D";
 		};
 	};
 };
