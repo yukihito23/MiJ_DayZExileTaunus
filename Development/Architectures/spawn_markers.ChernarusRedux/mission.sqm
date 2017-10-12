@@ -1,0 +1,1576 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=44;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={3676.3679,49.544827,2137.1309};
+		dir[]={0.5917353,-0.17364819,-0.78720629};
+		up[]={0.10433895,0.98480767,-0.13880596};
+		aside[]={-0.79935026,0,-0.6008637};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=14395660;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startFog=0.001;
+		startWind=0.02;
+		startWaves=0.02;
+		startGust=0.050000001;
+		forecastWeather=0.25;
+		forecastFog=0.001;
+		forecastWind=0.02;
+		forecastWaves=0.02;
+		forecastLightnings=0.02;
+		forecastGust=0.050000001;
+		year=2015;
+		month=6;
+		day=2;
+		hour=6;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Entities
+	{
+		items=28;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={2430.2822,-56.462646,2264.9089};
+			name="marker_0";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=0;
+			atlOffset=-126.8091;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={3911.9641,-2.8730469,2532.8467};
+			name="marker_1";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=1;
+			atlOffset=-9.0515175;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={406.04413,45.430782,1797.8188};
+			name="marker_12";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=12;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={1646.592,-8.526123,2334.8442};
+			name="marker_13";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=13;
+			atlOffset=-25.351248;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={3171.1184,-117.86925,2256.209};
+			name="marker_14";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=14;
+			atlOffset=-126.8025;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={913.258,-17.511448,2190.304};
+			name="marker_15";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=15;
+			atlOffset=-32.001408;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={5319.1377,7.2350097,2234.2422};
+			name="marker_16";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=16;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={6073.3848,6.4751759,2270.853};
+			name="marker_17";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=17;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={7437.8652,5.9928498,3291.166};
+			name="marker_18";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=18;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={8216.5205,5.9899998,3156.9131};
+			name="marker_19";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=19;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={9053.7617,25.310791,2344.0823};
+			name="marker_20";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=20;
+			atlOffset=-12.185242;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={9610.293,-4.8682876,2051.1724};
+			name="marker_21";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=21;
+			atlOffset=-20.093088;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={10738.004,55.442871,2866.4426};
+			name="marker_22";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=22;
+			atlOffset=-10.551544;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={11145.64,66.895996,3471.7949};
+			name="marker_23";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=23;
+			atlOffset=-5.2375488;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={11785.162,101.63742,3698.8018};
+			name="marker_24";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=24;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={12439.334,66.924072,3786.675};
+			name="marker_25";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=25;
+			atlOffset=-17.824509;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={13005.629,54.12085,4089.3516};
+			name="marker_26";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=26;
+			atlOffset=-24.981216;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={13276.572,68.282021,4653.2065};
+			name="marker_27";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=27;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={13169.171,22.409077,5260.9971};
+			name="marker_28";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=28;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item19
+		{
+			dataType="Marker";
+			position[]={12781.066,62.783936,7653.1104};
+			name="marker_32";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=32;
+			atlOffset=-37.914894;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={12744.454,6.4440398,8258.4619};
+			name="marker_33";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=33;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item21
+		{
+			dataType="Marker";
+			position[]={12622.407,6.8041687,8849.1689};
+			name="marker_34";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=34;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={12981.225,10.364306,10618.847};
+			name="marker_36";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=36;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item23
+		{
+			dataType="Marker";
+			position[]={13298.546,13.699463,11177.819};
+			name="marker_37";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=37;
+			atlOffset=-12.901882;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item24
+		{
+			dataType="Marker";
+			position[]={13618.308,16.37793,11675.771};
+			name="marker_38";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=38;
+			atlOffset=-12.42177;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item25
+		{
+			dataType="Marker";
+			position[]={13855.078,18.543213,12234.741};
+			name="marker_39";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=39;
+			atlOffset=-17.762096;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item26
+		{
+			dataType="Marker";
+			position[]={13979.568,-2.3264542,12842.534};
+			name="marker_40";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=40;
+			atlOffset=-26.394852;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={13155.464,9.4903488,6567.4434};
+			name="marker_29";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=300;
+			b=300;
+			id=43;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};

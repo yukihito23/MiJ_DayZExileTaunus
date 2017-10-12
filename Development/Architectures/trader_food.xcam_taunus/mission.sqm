@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=360;
+		nextID=368;
 	};
 	class Camera
 	{
-		pos[]={18103.207,161.94646,7000.9556};
-		dir[]={-0.55638874,-0.47482422,0.68203491};
-		up[]={-0.30030927,0.87993354,0.36812815};
-		aside[]={0.77493209,9.490177e-007,0.63218004};
+		pos[]={18093.07,156.69089,7008.272};
+		dir[]={-0.20124693,-0.39569414,0.8961972};
+		up[]={-0.086762771,0.91824269,0.3863802};
+		aside[]={0.97580892,2.0817388e-006,0.21913205};
 	};
 };
 binarizationWanted=0;
@@ -141,7 +141,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=52;
+		items=53;
 		class Item0
 		{
 			dataType="Object";
@@ -179,7 +179,6 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=2;
 					type="Exile_Trader_Food";
@@ -296,8 +295,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18099.506,154.51755,7018.0557};
-				angles[]={0,0.88759089,0};
+				position[]={18099.469,154.51755,7018.1714};
+				angles[]={-0,0.88759089,0};
 			};
 			side="Empty";
 			flags=4;
@@ -350,8 +349,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18097.523,155.13979,7014.4507};
-				angles[]={0,2.4708617,0};
+				position[]={18097.432,155.13979,7014.3828};
+				angles[]={-0,2.4708617,0};
 			};
 			side="Empty";
 			flags=4;
@@ -364,24 +363,6 @@ class Mission
 			type="CUP_icebox";
 		};
 		class Item6
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={18099.043,155.13979,7015.6558};
-				angles[]={0,2.4708617,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-				disableSimulation=1;
-			};
-			id=7;
-			type="CUP_icebox";
-		};
-		class Item7
 		{
 			dataType="Object";
 			class PositionInfo
@@ -399,7 +380,7 @@ class Mission
 			type="Exile_Cosmetic_EnergyDrink";
 			atlOffset=0.79347229;
 		};
-		class Item8
+		class Item7
 		{
 			dataType="Object";
 			class PositionInfo
@@ -416,7 +397,7 @@ class Mission
 			type="Exile_Cosmetic_EnergyDrink";
 			atlOffset=0.79502869;
 		};
-		class Item9
+		class Item8
 		{
 			dataType="Object";
 			class PositionInfo
@@ -434,7 +415,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=0.7827301;
 		};
-		class Item10
+		class Item9
 		{
 			dataType="Object";
 			class PositionInfo
@@ -452,7 +433,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=0.78312683;
 		};
-		class Item11
+		class Item10
 		{
 			dataType="Object";
 			class PositionInfo
@@ -470,12 +451,12 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=0.78468323;
 		};
-		class Item12
+		class Item11
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18099.848,155.6216,7017.5786};
+				position[]={18099.773,155.62154,7017.623};
 			};
 			side="Empty";
 			class Attributes
@@ -485,9 +466,9 @@ class Mission
 			};
 			id=23;
 			type="Land_Ketchup_01_F";
-			atlOffset=1.0009003;
+			atlOffset=1.0008392;
 		};
-		class Item13
+		class Item12
 		{
 			dataType="Object";
 			class PositionInfo
@@ -504,7 +485,7 @@ class Mission
 			type="Exile_Cosmetic_InstantCoffee";
 			atlOffset=0.09928894;
 		};
-		class Item14
+		class Item13
 		{
 			dataType="Object";
 			class PositionInfo
@@ -522,7 +503,7 @@ class Mission
 			type="Exile_Cosmetic_InstantCoffee";
 			atlOffset=0.090057373;
 		};
-		class Item15
+		class Item14
 		{
 			dataType="Object";
 			class PositionInfo
@@ -540,12 +521,12 @@ class Mission
 			type="Exile_Cosmetic_InstantCoffee";
 			atlOffset=0.11877441;
 		};
-		class Item16
+		class Item15
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18100.031,155.62924,7017.5962};
+				position[]={18099.918,155.62807,7017.6123};
 			};
 			side="Empty";
 			class Attributes
@@ -555,9 +536,9 @@ class Mission
 			};
 			id=35;
 			type="Land_Mustard_01_F";
-			atlOffset=1.0085449;
+			atlOffset=1.00737;
 		};
-		class Item17
+		class Item16
 		{
 			dataType="Object";
 			class PositionInfo
@@ -574,7 +555,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=1.1068573;
 		};
-		class Item18
+		class Item17
 		{
 			dataType="Object";
 			class PositionInfo
@@ -592,7 +573,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=1.1047516;
 		};
-		class Item19
+		class Item18
 		{
 			dataType="Object";
 			class PositionInfo
@@ -610,7 +591,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=1.1021729;
 		};
-		class Item20
+		class Item19
 		{
 			dataType="Object";
 			class PositionInfo
@@ -627,7 +608,7 @@ class Mission
 			type="Exile_Cosmetic_BBQSandwich";
 			atlOffset=1.1008453;
 		};
-		class Item21
+		class Item20
 		{
 			dataType="Object";
 			class PositionInfo
@@ -645,7 +626,7 @@ class Mission
 			type="Exile_Cosmetic_EnergyDrink";
 			atlOffset=0.7792511;
 		};
-		class Item22
+		class Item21
 		{
 			dataType="Object";
 			class PositionInfo
@@ -663,7 +644,7 @@ class Mission
 			type="Exile_Cosmetic_EnergyDrink";
 			atlOffset=0.78656006;
 		};
-		class Item23
+		class Item22
 		{
 			dataType="Object";
 			class PositionInfo
@@ -681,7 +662,7 @@ class Mission
 			type="Exile_Cosmetic_EnergyDrink";
 			atlOffset=0.78337097;
 		};
-		class Item24
+		class Item23
 		{
 			dataType="Object";
 			class PositionInfo
@@ -698,7 +679,7 @@ class Mission
 			type="Exile_Cosmetic_BeefParts";
 			atlOffset=0.42297363;
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Object";
 			class PositionInfo
@@ -715,7 +696,7 @@ class Mission
 			type="Exile_Cosmetic_BeefParts";
 			atlOffset=0.41940308;
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Object";
 			class PositionInfo
@@ -732,7 +713,7 @@ class Mission
 			type="Exile_Cosmetic_Raisins";
 			atlOffset=1.4855957;
 		};
-		class Item27
+		class Item26
 		{
 			dataType="Object";
 			class PositionInfo
@@ -749,7 +730,7 @@ class Mission
 			type="Exile_Cosmetic_Raisins";
 			atlOffset=1.1060638;
 		};
-		class Item28
+		class Item27
 		{
 			dataType="Object";
 			class PositionInfo
@@ -766,7 +747,7 @@ class Mission
 			type="Exile_Cosmetic_Raisins";
 			atlOffset=1.0991974;
 		};
-		class Item29
+		class Item28
 		{
 			dataType="Object";
 			class PositionInfo
@@ -784,7 +765,7 @@ class Mission
 			type="Exile_Cosmetic_Raisins";
 			atlOffset=1.4799805;
 		};
-		class Item30
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -802,7 +783,7 @@ class Mission
 			type="Exile_Cosmetic_Beer";
 			atlOffset=0.43553162;
 		};
-		class Item31
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -819,7 +800,7 @@ class Mission
 			type="Exile_Cosmetic_Beer";
 			atlOffset=0.42910767;
 		};
-		class Item32
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -837,7 +818,7 @@ class Mission
 			type="Exile_Cosmetic_Beer";
 			atlOffset=0.43850708;
 		};
-		class Item33
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -855,7 +836,7 @@ class Mission
 			type="Land_Poster_05_F";
 			atlOffset=1.7645721;
 		};
-		class Item34
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -873,7 +854,7 @@ class Mission
 			id=154;
 			type="Land_CratesPlastic_F";
 		};
-		class Item35
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -892,13 +873,13 @@ class Mission
 			type="Land_CratesShabby_F";
 			atlOffset=0.042221069;
 		};
-		class Item36
+		class Item35
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18103.459,155.26659,7016.416};
-				angles[]={6.2611909,0.95710689,0.012000273};
+				position[]={18103.576,155.19814,7016.6279};
+				angles[]={6.2591944,0.95710689,0.013995145};
 			};
 			side="Empty";
 			flags=4;
@@ -909,9 +890,8 @@ class Mission
 			};
 			id=156;
 			type="Land_CratesWooden_F";
-			atlOffset=0.074905396;
 		};
-		class Item37
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -929,7 +909,7 @@ class Mission
 			id=157;
 			type="Fort_Crate_wood";
 		};
-		class Item38
+		class Item37
 		{
 			dataType="Object";
 			class PositionInfo
@@ -948,7 +928,7 @@ class Mission
 			type="Fort_Crate_wood";
 			atlOffset=0.032821655;
 		};
-		class Item39
+		class Item38
 		{
 			dataType="Object";
 			class PositionInfo
@@ -967,7 +947,7 @@ class Mission
 			type="Land_CratesPlastic_F";
 			atlOffset=0.035415649;
 		};
-		class Item40
+		class Item39
 		{
 			dataType="Object";
 			class PositionInfo
@@ -985,7 +965,7 @@ class Mission
 			id=161;
 			type="Fort_Crate_wood";
 		};
-		class Item41
+		class Item40
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1027,7 +1007,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item42
+		class Item41
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1045,7 +1025,7 @@ class Mission
 			id=213;
 			type="plp_ctp_PalletWoodDarkHeapC";
 		};
-		class Item43
+		class Item42
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1063,7 +1043,7 @@ class Mission
 			id=214;
 			type="plp_ctp_PalletWoodPaintedBlueHeapB";
 		};
-		class Item44
+		class Item43
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1081,7 +1061,7 @@ class Mission
 			id=229;
 			type="Land_Shed_W01";
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1098,7 +1078,7 @@ class Mission
 			type="MetalBarrel_burning_F";
 			atlOffset=1.5258789e-005;
 		};
-		class Item46
+		class Item45
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1116,7 +1096,7 @@ class Mission
 			id=260;
 			type="Land_HBarrier_5_F";
 		};
-		class Item47
+		class Item46
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1134,7 +1114,7 @@ class Mission
 			id=261;
 			type="Land_HBarrier_3_F";
 		};
-		class Item48
+		class Item47
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1152,7 +1132,7 @@ class Mission
 			id=262;
 			type="Land_CncBarrier_F";
 		};
-		class Item49
+		class Item48
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1170,7 +1150,7 @@ class Mission
 			id=335;
 			type="Land_HBarrier_5_F";
 		};
-		class Item50
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1188,7 +1168,7 @@ class Mission
 			id=336;
 			type="Land_HBarrier_5_F";
 		};
-		class Item51
+		class Item50
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1226,6 +1206,64 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18099.328,155.03462,7018.4849};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=360;
+			type="Exile_Cosmetic_Magazine04";
+			atlOffset=0.51780701;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType (parseNumber _value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18098.963,155.13979,7015.5952};
+				angles[]={-0,2.4708617,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=7;
+			type="CUP_icebox";
 		};
 	};
 };

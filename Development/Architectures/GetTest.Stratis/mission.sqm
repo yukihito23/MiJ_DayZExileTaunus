@@ -1,0 +1,241 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=129;
+	class ItemIDProvider
+	{
+		nextID=17;
+	};
+	class Camera
+	{
+		pos[]={4486.9238,114.96313,6819.8433};
+		dir[]={0.49565062,-0.74263126,-0.45049179};
+		up[]={0.54956508,0.66969514,-0.49949515};
+		aside[]={-0.67263281,-2.4132896e-007,-0.74005795};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Characters_F",
+	"A3_Supplies_F_Exp_Ammoboxes",
+	"A3_Weapons_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Supplies_F_Exp";
+			name="Arma 3 Apex - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=13717607;
+class ScenarioData
+{
+	author="Kantata";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=4;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4494.0977,104.80818,6805.4678};
+						angles[]={0,2.7078705,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={4495.7192,105.60317,6802.5361};
+					completitionRadius=2;
+					description="GPSを入手せよ";
+					class Effects
+					{
+					};
+					showWP="ALWAYS";
+					id=9;
+					type="Move";
+					atlOffset=0.50008392;
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					position[]={4498.2988,104.57996,6815.9653};
+					completitionRadius=1;
+					description="GPSをここに入れろ";
+					class Effects
+					{
+					};
+					showWP="ALWAYS";
+					id=10;
+					type="Move";
+					atlOffset=0.14103699;
+					class AttachedTo
+					{
+						id=11;
+						offset[]={0,0.5,0};
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4498.2988,104.26868,6815.9648};
+				angles[]={6.2815661,0,6.282495};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="box1";
+			};
+			id=11;
+			type="Box_T_NATO_Wps_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""arifle_MX_khk_F"",""arifle_MX_GL_khk_F"",""arifle_MX_SW_khk_F"",""arifle_MXC_khk_F"",""SMG_01_F"",""hgun_P07_khk_F"",""hgun_Pistol_heavy_01_F""],[4,2,2,2,1,1,1]],[[""30Rnd_65x39_caseless_mag"",""16Rnd_9x21_Mag"",""11Rnd_45ACP_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""100Rnd_65x39_caseless_mag""],[8,2,1,1,2]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4496.0044,105.80074,6802.3325};
+				angles[]={0.16595918,0,0.047464538};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="gps1";
+			};
+			id=13;
+			type="Item_ItemGPS";
+		};
+		class Item3
+		{
+			dataType="Trigger";
+			position[]={4503.2822,103.56483,6814.46};
+			class Attributes
+			{
+				condition="call{""ItemGPS"" && ""gps1"" in itemCargo box1}";
+				sizeA=0;
+				sizeB=0;
+				type="END1";
+			};
+			id=14;
+			type="EmptyDetector";
+			atlOffset=7.6293945e-006;
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=1;
+		};
+		class Links
+		{
+			items=1;
+			class Item0
+			{
+				linkID=0;
+				item0=14;
+				item1=11;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};

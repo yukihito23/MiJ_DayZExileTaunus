@@ -1,0 +1,277 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=13;
+	};
+	class Camera
+	{
+		pos[]={5827.8789,245.01987,2261.825};
+		dir[]={0.7803492,-0.48084649,0.39983127};
+		up[]={0.42794901,0.8768006,0.21927087};
+		aside[]={0.456009,8.3527993e-008,-0.88998991};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+	};
+};
+randomSeed=9311778;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startFog=0.001;
+		startWind=0.02;
+		startWaves=0.02;
+		startGust=0.050000001;
+		forecastWeather=0.25;
+		forecastFog=0.001;
+		forecastWind=0.02;
+		forecastWaves=0.02;
+		forecastLightnings=0.02;
+		forecastGust=0.050000001;
+		year=2015;
+		month=6;
+		day=2;
+		hour=6;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Entities
+	{
+		items=13;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2591.717,194.05203,5064.1875};
+				angles[]={-0,1.0040436,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=0;
+			type="Exile_Locker";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4599.8696,6.8842278,2407.3159};
+				angles[]={-0,3.251684,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1;
+			type="Exile_Locker";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12025.946,54.052525,9152.3389};
+				angles[]={-0,2.4109714,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2;
+			type="Exile_Locker";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12270.578,19.53248,9469.8965};
+				angles[]={-0,2.5116665,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3;
+			type="Exile_Locker";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6507.478,6.7966232,2359.3684};
+				angles[]={-0,3.8795767,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4;
+			type="Exile_Locker";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6809.0786,16.439613,3205.7388};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=5;
+			type="Exile_Locker";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6886.4497,6.0720129,2402.8354};
+				angles[]={-0,5.6778069,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6;
+			type="Exile_Locker";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10354.819,8.2170181,2302.0652};
+				angles[]={-0,4.2887349,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=7;
+			type="Exile_Locker";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11251.39,189.39201,12204.062};
+				angles[]={-0,2.0235009,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8;
+			type="Exile_Locker";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10631.433,210.82011,8019.3726};
+				angles[]={-0,3.7317572,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=9;
+			type="Exile_Locker";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3065.6074,299.04205,7981.4814};
+				angles[]={-0,5.0636482,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=10;
+			type="Exile_Locker";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6013.3726,301.10571,7820.8921};
+				angles[]={-0,5.4514413,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=11;
+			type="Exile_Locker";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3821.2236,311.05148,8945.9805};
+				angles[]={-0,0.38997361,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12;
+			type="Exile_Locker";
+		};
+	};
+};

@@ -1,0 +1,184 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=3;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={12229.241,293.35519,12759.927};
+		dir[]={-0.63891095,-0.62026924,-0.45505595};
+		up[]={-0.50522631,0.78438491,-0.35984159};
+		aside[]={-0.58013922,-1.4516991e-007,0.81452817};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=532460;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startFog=0.001;
+		startWind=0.02;
+		startWaves=0.02;
+		startGust=0.050000001;
+		forecastWeather=0.25;
+		forecastFog=0.001;
+		forecastWind=0.02;
+		forecastWaves=0.02;
+		forecastLightnings=0.02;
+		forecastGust=0.050000001;
+		year=2015;
+		month=6;
+		day=2;
+		hour=6;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Entities
+	{
+		items=2;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={12111.242,0,12716.49};
+			name="marker_0";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=500;
+			b=500;
+			id=0;
+			atlOffset=-158.89999;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={4601.375,2.8884277,10295.228};
+			name="marker_1";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=800;
+			b=800;
+			id=2;
+			atlOffset=-337.97708;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};

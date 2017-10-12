@@ -1,0 +1,111 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=9;
+	class ItemIDProvider
+	{
+		nextID=33;
+	};
+	class Camera
+	{
+		pos[]={14043.078,40.780563,11154.588};
+		dir[]={-0.78228086,-0.62139171,0.046447136};
+		up[]={-0.62033373,0.78347141,0.036832046};
+		aside[]={0.059270978,7.3268893e-008,0.99836928};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"CUP_Misc_e_Config",
+	"A3_Structures_F_Exp_Industrial_Port"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+		class Item1
+		{
+			className="A3_Structures_F_Exp_Industrial";
+			name="Arma 3 Apex - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=9276868;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startFog=0.001;
+		startWind=0.02;
+		startWaves=0.02;
+		startGust=0.050000001;
+		forecastWeather=0.25;
+		forecastFog=0.001;
+		forecastWind=0.02;
+		forecastWaves=0.02;
+		forecastLightnings=0.02;
+		forecastGust=0.050000001;
+		year=2015;
+		month=6;
+		day=2;
+		hour=6;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Entities
+	{
+		items=2;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13980.95,4.6993685,11162.306};
+				angles[]={0.18726578,5.204483,6.0324907};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=28;
+			type="Land_ladder_half_EP1";
+			atlOffset=9.0286503;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14015.286,6.3534412,11148.363};
+				angles[]={0.20563029,0.44518507,6.0384626};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=29;
+			type="Land_Warehouse_02_ladder_F";
+			atlOffset=5.0864439;
+		};
+	};
+};

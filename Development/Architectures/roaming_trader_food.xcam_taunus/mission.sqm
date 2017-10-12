@@ -1,0 +1,206 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=9;
+	};
+	class Camera
+	{
+		pos[]={13064.747,998.98688,16004.46};
+		dir[]={0.19635998,-0.62899917,0.75220364};
+		up[]={0.15887485,0.77740163,0.60860783};
+		aside[]={0.96758002,1.7113052e-008,-0.25258279};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+	};
+};
+randomSeed=15079124;
+class ScenarioData
+{
+	author="yukihito23";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=9;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16222.504,207.90271,9839.4443};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=0;
+			type="Exile_Animal_Goat_Black";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15944.2,118.73639,2548.2126};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1;
+			type="Exile_Animal_Goat_Black";
+			atlOffset=-0.0045013428;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9355.5098,202.89009,3511.6565};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2;
+			type="Exile_Animal_Goat_Black";
+			atlOffset=0.00099182129;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4355.2705,620.60089,12998.303};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3;
+			type="Exile_Animal_Goat_Black";
+			atlOffset=0.0009765625;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10869.689,379.46088,17873.086};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=4;
+			type="Exile_Animal_Goat_Black";
+			atlOffset=0.0009765625;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17360.281,197.70105,13623.757};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5;
+			type="Exile_Animal_Goat_Black";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5678.147,386.3432,6804.1182};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=6;
+			type="Exile_Animal_Goat_Black";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15706.535,427.54816,17226.357};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=7;
+			type="Exile_Animal_Goat_Black";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3361.6611,540.69989,18325.287};
+			};
+			side="Ambient";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=8;
+			type="Exile_Animal_Goat_Black";
+		};
+	};
+};
