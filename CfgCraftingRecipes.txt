@@ -1,0 +1,5468 @@
+
+class CfgCraftingRecipes
+	{
+		// ----------------------------------------------------------------
+		// Craft Legends
+		// ----------------------------------------------------------------
+		// Food
+		// 		Exile Vanilla Recipe: Food
+		// 		Exile Extended Items Recipe: Food
+		// Water
+		// 		Exile Vanilla Recipe: Water
+		// 		Exile Extended Items Recipe: Water
+		// Medical
+		// 		Exile Vanilla Recipe: Medical
+		// 		Exile Extended Items Recipe: Medical
+		// 		MiJ Custom Recipe: Medical
+		// Exile Extended Items Recipe: Misc
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct RepairKits
+		// Exile Vanilla Recipe: Construct Wood
+		// Exile Vanilla Recipe: Construct Concrete
+		// Exile Vanilla Recipe: Construct Bombs
+		// Exile Vanilla Recipe: Construct Others
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Experimental
+		// MiJ Custom Recipe: Tools - Arma3 Items
+		// MiJ Custom Recipe: Tools
+		// MiJ Custom Recipe: Craftables
+		// MiJ Custom Recipe: Building
+		// MiJ Custom Recipe: Attachments
+		// MiJ Custom Recipe: Attachments - Silencers
+		// MiJ Custom Recipe: Attachments - Optics
+		// MiJ Custom Recipe: Not Used - Magazines Construct
+		// MiJ Custom Recipe: Not Used - Magazines Deconstruct
+		// MiJ Custom Recipe: Not Used - Guns Upgrade
+		// ----------------------------------------------------------------=
+	
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Food
+		// ----------------------------------------------------------------
+		//Exile Vanilla Food - CookBBQSandwich
+			class CookBBQSandwich: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook BBQ Sandwich";
+					pictureItem = "Exile_Item_BBQSandwich_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BBQSandwich_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_BBQSandwich"}
+						};
+				};
+		//Exile Vanilla Food - CookCatFood
+			class CookCatFood: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Cat Food";
+					pictureItem = "Exile_Item_CatFood_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CatFood_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_CatFood"}
+						};
+				};
+		//Exile Vanilla Food - CookChristmasTinner
+			class CookChristmasTinner: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Christmas Tinner";
+					pictureItem = "Exile_Item_ChristmasTinner_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ChristmasTinner_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ChristmasTinner"}
+						};
+				};
+		//Exile Vanilla Food - CookCoffee
+			class CookCoffee: Exile_AbstractCraftingRecipe
+				{
+					name = "Brew Coffee";
+					pictureItem = "Exile_Item_PlasticBottleCoffee";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleCoffee"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleFreshWater"},
+							{1, "Exile_Item_InstantCoffee"}
+						};
+				};
+		//Exile Vanilla Food - CookDogFood
+			class CookDogFood: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Dog Food";
+					pictureItem = "Exile_Item_DogFood_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_DogFood_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_DogFood"}
+						};
+				};
+		//Exile Vanilla Food - CookGloriousKnakworst
+			class CookGloriousKnakworst: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Glorious Knakworst";
+					pictureItem = "Exile_Item_GloriousKnakworst_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_GloriousKnakworst_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_GloriousKnakworst"}
+						};
+				};
+		//Exile Vanilla Food - CookMacasCheese
+			class CookMacasCheese: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Macas Cheese";
+					pictureItem = "Exile_Item_MacasCheese_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MacasCheese_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MacasCheese"}
+						};
+				};
+		//Exile Vanilla Food - CookPlasticBottleDirtyWater
+			class CookPlasticBottleDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Dirty Water";
+					pictureItem = "Exile_Item_PlasticBottleFreshWater";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleFreshWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleDirtyWater"}
+						};
+				};
+		//Exile Vanilla Food - CookPlasticBottleSaltWater
+			class CookPlasticBottleSaltWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Salt Water";
+					pictureItem = "Exile_Item_PlasticBottleFreshWater";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleFreshWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleSaltWater"}
+						};
+				};
+		//Exile Vanilla Food - CookSausageGravy
+			class CookSausageGravy: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Sausage Gravy";
+					pictureItem = "Exile_Item_SausageGravy_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SausageGravy_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_SausageGravy"}
+						};
+				};
+		//Exile Vanilla Food - CookSurstromming
+			class CookSurstromming: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Surstromming";
+					pictureItem = "Exile_Item_Surstromming_Cooked";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Surstromming_Cooked"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Surstromming"}
+						};
+				};
+		//Exile Vanilla Food - CookAlsatianSteak
+			class CookAlsatianSteak: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Alsatian Steak";
+					pictureItem = "Exile_Item_AlsatianSteak_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_AlsatianSteak_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_AlsatianSteak_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookCatSharkFilet
+			class CookCatSharkFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Cat Shark Filet";
+					pictureItem = "Exile_Item_CatSharkFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CatSharkFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_CatSharkFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookChickenFilet
+			class CookChickenFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Chicken Filet";
+					pictureItem = "Exile_Item_ChickenFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ChickenFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_ChickenFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookFinSteak
+			class CookFinSteak: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Fin Steak";
+					pictureItem = "Exile_Item_FinSteak_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_FinSteak_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_FinSteak_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookGoatSteak
+			class CookGoatSteak: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Goat Steak";
+					pictureItem = "Exile_Item_GoatSteak_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_GoatSteak_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_GoatSteak_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookMackerelFilet
+			class CookMackerelFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Mackerel Filet";
+					pictureItem = "Exile_Item_MackerelFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MackerelFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_MackerelFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookMulletFilet
+			class CookMulletFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Mullet Filet";
+					pictureItem = "Exile_Item_MulletFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MulletFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_MulletFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookOrnateFilet
+			class CookOrnateFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Ornate Filet";
+					pictureItem = "Exile_Item_OrnateFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_OrnateFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_OrnateFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookRabbitSteak
+			class CookRabbitSteak: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Rabbit Steak";
+					pictureItem = "Exile_Item_RabbitSteak_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RabbitSteak_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_RabbitSteak_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookRoosterFilet
+			class CookRoosterFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Rooster Filet";
+					pictureItem = "Exile_Item_RoosterFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RoosterFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_RoosterFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookSalemaFilet
+			class CookSalemaFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Salema Filet";
+					pictureItem = "Exile_Item_SalemaFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SalemaFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_SalemaFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookSheepSteak
+			class CookSheepSteak: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Sheep Steak";
+					pictureItem = "Exile_Item_SheepSteak_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SheepSteak_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_SheepSteak_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookSnakeFilet
+			class CookSnakeFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Snake Filet";
+					pictureItem = "Exile_Item_SnakeFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SnakeFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_SnakeFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookTunaFilet
+			class CookTunaFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Tuna Filet";
+					pictureItem = "Exile_Item_TunaFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_TunaFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_TunaFilet_Raw"}
+						};
+				};
+		//Exile Vanilla Food - CookTurtleFilet
+			class CookTurtleFilet: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Turtle Filet";
+					pictureItem = "Exile_Item_TurtleFilet_Cooked";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_TurtleFilet_Cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_TurtleFilet_Raw"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// Exile Extended Items Recipe: Food
+		// ----------------------------------------------------------------
+		//Exile Extended Items Food - CookBakedBeans
+			class CookBakedBeans: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Baked Beans";
+					pictureItem = "Exitem_bakedbeans";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_bakedbeans_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_bakedbeans"}
+						};
+				};
+		//Exile Extended Items Food - CookTacticalBacon
+			class CookTacticalBacon: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Tactical Bacon";
+					pictureItem = "Exitem_tacticalbacon";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_tacticalbacon_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_tacticalbacon"}
+						};
+				};
+		//Exile Extended Items Food - CookSpam
+			class CookSpam: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Spam Can";
+					pictureItem = "Exitem_spam";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_spam_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_spam"}
+						};
+				};
+		//Exile Extended Items Food - CookTunaCan
+			class CookTuna: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Tuna Can";
+					pictureItem = "Exitem_tuna";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_tuna_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_tuna"}
+						};
+				};
+		//Exile Extended Items Food - CookSpagetti
+			class CookSpagetti: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Spagetti Can";
+					pictureItem = "Exitem_spaghetti";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_spaghetti_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_spaghetti"}
+						};
+				};
+		//Exile Extended Items Food - CookMeetballs
+			class CookMeetballs: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Meatballs Can";
+					pictureItem = "Exitem_meatballs";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_meatballs_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_meatballs"}
+						};
+				};
+		//Exile Extended Items Food - CookHotdogs
+			class CookHotdogs: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Hotdogs Can";
+					pictureItem = "Exitem_hotdogs";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_hotdogs_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_hotdogs"}
+						};
+				};
+		//Exile Extended Items Food - CookRice
+			class CookRice: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Rice";
+					pictureItem = "Exitem_rice";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_rice_cooked"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_rice"}
+						};
+				};
+		//Exile Extended Items Food - CookContainerSoup
+			//class CookContainerSoup: Exile_AbstractCraftingRecipe
+			//	{
+			//		name = "Cook Soup";
+			//		pictureItem = "Exitem_container_soup";
+			//		requiresFire = 1;
+			//		tools[] =
+			//			{
+			//				"Exile_Item_CookingPot"
+			//			};
+			//		returnedItems[] =
+			//			{
+			//				{1, "Exitem_container_soup"}
+			//			};
+			//		components[] = 
+			//			{
+			//				{1, "Exitem_container"},
+			//				{1, "Exitem_container"}
+			//			};
+			//	};
+		//Exile Extended Items Food - CookContainerBeef
+			//class CookContainerBeef: Exile_AbstractCraftingRecipe
+			//	{
+			//		name = "Cook Beef Stew";
+			//		pictureItem = "Exitem_container_beef";
+			//		requiresFire = 1;
+			//		tools[] =
+			//			{
+			//				"Exile_Item_CookingPot"
+			//			};
+			//		returnedItems[] =
+			//			{
+			//				{1, "Exitem_container_beef"}
+			//			};
+			//		components[] = 
+			//			{
+			//				{1, "Exitem_container"},
+			//				{1, "Exitem_container"}
+			//			};
+			//	};
+		//Exile Extended Items Food - CookMeat
+			//class CookMeat: Exile_AbstractCraftingRecipe
+			//	{
+			//		name = "Cook Slab of Meat";
+			//		pictureItem = "Exile_meat_cooked";
+			//		requiresFire = 1;
+			//		tools[] =
+			//			{
+			//				"Exile_Item_CookingPot"
+			//			};
+			//		returnedItems[] =
+			//			{
+			//				{1, "Exile_meat_cooked"}
+			//			};
+			//		components[] = 
+			//			{
+			//				{1, "Exile_meat"}
+			//			};
+			//	};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Water
+		// ----------------------------------------------------------------
+		//Exile Vanilla Water - EmptyPlasticBottleDirtyWater
+			class EmptyPlasticBottleDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Empty Dirty Water in Plastic Bottle";
+					pictureItem = "Exile_Item_PlasticBottleEmpty";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleDirtyWater"}
+						};
+				};
+		//Exile Vanilla Water - FillEmptyPlasticBottleWithDirtyWater
+			class FillEmptyPlasticBottleWithDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Dirty Water in Plastic Bottle";
+					pictureItem = "Exile_Item_PlasticBottleDirtyWater";
+					requiredInteractionModelGroup = "WaterSource";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleDirtyWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"}
+						};
+				};
+		//Exile Vanilla Water - FillEmptyWaterCanisterWithDirtyWater
+			class EmptyWaterCanisterWithDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Empty Dirty Water in Water Canister";
+					pictureItem = "Exile_Item_WaterCanisterEmpty";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WaterCanisterEmpty"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WaterCanisterDirtyWater"}
+						};
+				};
+		//Exile Vanilla Water - FillEmptyWaterCanisterWithDirtyWater
+			class FillEmptyWaterCanisterWithDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Dirty Water in Water Canister";
+					pictureItem = "Exile_Item_WaterCanisterDirtyWater";
+					requiredInteractionModelGroup = "WaterSource";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WaterCanisterDirtyWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WaterCanisterEmpty"}
+						};
+				};
+		//Exile Vanilla Water - EmptyPlasticBottleSaltWater
+			class EmptyPlasticBottleSaltWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Empty Salt Water";
+					pictureItem = "Exile_Item_PlasticBottleEmpty";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleSaltWater"}
+						};
+				};
+		//Exile Vanilla Water - FillEmptyPlasticBottleWithSaltWater
+			class FillEmptyPlasticBottleWithSaltWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Salt Water";
+					pictureItem = "Exile_Item_PlasticBottleSaltWater";
+					requiresOcean = 1;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleSaltWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// Exile Extended Items Recipe: Water
+		// ----------------------------------------------------------------
+		//Exile Extended Items Water - PurifyPlasticBottleDirtyWater
+			class PurifyPlasticBottleDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Purify Dirty Water in Waterbottle";
+					pictureItem = "Exile_Item_PlasticBottleFreshWater";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleFreshWater"}
+						};
+					components[] = 
+						{
+							{1, "Exile_Item_PlasticBottleDirtyWater"},
+							{1, "Exitem_purificationtablets"}
+						};
+				};
+		//Exile Extended Items Water - PurifyCanteenDirtyWater
+			class PurifyCanteenDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Purify Dirty Water in Canteen";
+					pictureItem = "Exitem_canteen";
+					returnedItems[] =
+						{
+							{1, "Exitem_canteen_fresh"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_canteen_dirty"},
+							{1, "Exitem_purificationtablets"}
+						};
+				};
+		//Exile Extended Items Water - CookCoffeeCanteen
+			class CookCoffeeCanteen: Exile_AbstractCraftingRecipe
+				{
+					name = "Brew Coffee in Canteen";
+					pictureItem = "Exitem_canteen";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exitem_canteen_coffee"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_canteen_fresh"},
+							{1, "Exile_Item_InstantCoffee"}
+						};
+				};
+		//Exile Extended Items Water - CookCanteenDirtyWater
+			class CookCanteenDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Cook Dirty Water in Canteen";
+					pictureItem = "Exitem_canteen";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "Exitem_canteen_fresh"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_canteen_dirty"}
+						};
+				};
+		//Exile Extended Items Water - EmptyCanteenDirtyWater
+			class EmptyCanteenDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Empty Dirty Water in Canteen";
+					pictureItem = "Exitem_canteen";
+					returnedItems[] =
+						{
+							{1, "Exitem_canteen"}
+						};
+					components[] =
+						{
+							{1, "Exitem_canteen_dirty"}
+						};
+				};
+		//Exile Extended Items Water - FillEmptyCanteenWithDirtyWater
+			class FillEmptyCanteenWithDirtyWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Dirty Water in Canteen";
+					pictureItem = "Exitem_canteen";
+					requiredInteractionModelGroup = "WaterSource";
+					returnedItems[] =
+						{
+							{1, "Exitem_canteen_dirty"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_canteen"}
+						};
+				};
+			//	class CraftBeer: Exile_AbstractCraftingRecipe  
+			//		{
+			//			name = "Craft Beer";
+			//			pictureItem = "Exile_Item_Beer";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_beer"},
+			//					{1, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_Beer"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_beer"},
+			//					{1, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_Can_Empty"},
+			//					{1, "Exile_Item_InstantCoffee"},
+			//					{2, "Exile_Item_Raisins"},
+			//					{1, "Exile_Item_Moobar"}
+			//				};
+			//		};
+
+		/*
+		//Exile Vanilla Water - FillEmptyPlasticBottleWithFreshWater
+			class FillEmptyPlasticBottleWithFreshWater: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Fresh Water";
+					pictureItem = "Exile_Item_PlasticBottleFreshWater";
+					requiredInteractionModelGroup = "CleanWaterSource";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PlasticBottleFreshWater"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"}
+						};
+				};
+		*/
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Medical
+		// ----------------------------------------------------------------
+		//Exile Vanilla Medical - CraftDirtyBandage
+			class CraftDirtyBandage: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Dirty Bandage from Toilet Paper";
+					pictureItem = "Exile_Item_Bandage";
+					returnedItems[] =
+						{
+							{1, "Exitem_bandage_dirty"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_ToiletPaper"}
+						};
+				};
+
+		// ----------------------------------------------------------------
+		// Exile Extended Items Recipe: Medical
+		// ----------------------------------------------------------------
+		//Exile Extended Items Medical - CraftCloth1
+			class CraftCloth1: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Pillow";
+					pictureItem = "Exitem_cloth";
+					returnedItems[] =
+						{
+							{1, "Exitem_cloth"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_pillow"}
+						};
+				};
+		//Exile Extended Items Medical - CraftCloth2
+			class CraftCloth2: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Flannel Pillow";
+					pictureItem = "Exitem_cloth";
+					returnedItems[] =
+						{
+							{1, "Exitem_cloth"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_pillow_flannel"}
+						};
+				};
+		//Exile Extended Items Medical - CraftDirtyBandage2
+			class CraftDirtyBandage2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Dirty Bandage from Cloth";
+					pictureItem = "Exile_Item_Bandage";
+					returnedItems[] =
+						{
+							{1, "Exitem_bandage_dirty"}
+						};
+					components[] = 
+						{
+							{2, "Exitem_cloth"}
+						};
+				};
+		//Exile Extended Items Medical - CraftSanitizedBandage
+			class CraftMakeshiftdBandage: Exile_AbstractCraftingRecipe
+				{
+					name = "Clean Dirty Bandage";
+					pictureItem = "Exile_Item_Bandage";
+					returnedItems[] =
+						{
+							{1, "Exitem_makeshift_bandage"}
+						};
+					components[] = 
+						{
+							{1, "Exitem_bandage_dirty"},
+							{1, "Exile_Item_PlasticBottleFreshWater"}
+						};
+				};
+		//Exile Extended Items Medical - CraftSanitizedBandage
+			class CraftSanitizedBandage: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Clean Bandage";
+					pictureItem = "Exile_Item_Bandage";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Bandage"}
+						};
+					components[] = 
+						{
+							{2, "Exitem_makeshift_bandage"}
+						};
+				};
+		//Exile Extended Items Medical - CraftMilitaryDressing
+			class CraftMilitaryDressing: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Military Dressing";
+					pictureItem = "Exitem_dressing";
+					returnedItems[] =
+						{
+							{2, "Exitem_dressing"}
+						};
+					components[] = 
+						{
+							{2, "Exile_Item_Bandage"},
+							{1, "Exitem_disinfectant"}
+						};
+				};
+		//Exile Extended Items Medical - CraftMilitaryDressing
+			class CraftSplint: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Splint";
+					pictureItem = "Exitem_splint";
+					returnedItems[] =
+						{
+							{1, "Exitem_splint"}
+						};
+					components[] = 
+						{
+							{2, "Exitem_bandage_dirty"},
+							{2, "Exile_Item_WoodSticks"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Medical
+		// ----------------------------------------------------------------
+		//MiJ Custom Medical Recipes - Exile_Item_Vishpirin
+			class Exile_Item_Vishpirin: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Vishpirin";
+					pictureItem = "Exile_Item_Vishpirin";
+					category = "First Aid";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Vishpirin"}
+						};
+					components[] =
+						{
+							{2, "Exitem_vitamins"},
+							{1, "Exitem_painkillers"},
+							{1, "Exitem_disinfectant"}
+						};
+				};
+		//MiJ Custom Medical Recipes - CraftInstaDoc
+			class CraftInstaDoc: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft InstaDoc";
+					pictureItem = "Exile_Item_InstaDoc";
+					category = "First Aid";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exile_Item_CookingPot"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_InstaDoc"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_Vishpirin"},
+							{1, "Exitem_painkillers"},
+							{1, "Exitem_disinfectant"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// Exile Extended Items Recipe: Misc
+		// ----------------------------------------------------------------
+		//Exile Extended Items Misc - CraftMatches
+			class CraftMatches: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Matches";
+					pictureItem = "Exile_Item_Matches";
+					requiredInteractionModelGroup = "WorkBench";
+					tools[] = 
+						{
+							"Exile_Item_Pliers"
+						};
+					returnedItems[] = 
+						{
+							//{1, "Exitem_blueprint_matches"},
+							{1, "Exile_Item_Matches"}
+						};
+					components[] = 
+						{
+							//{1, "Exitem_blueprint_matches"},
+							{1, "Exitem_pencil"},
+							{1, "Exile_Item_WoodLog"}
+						};
+				};
+			class CraftBoard: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Window Board";
+					pictureItem = "Exitem_board";
+					tools[] = 
+						{
+							"Exile_Item_Hammer"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_board"}
+						};
+					components[] = 
+						{
+							{4, "Exile_Item_WoodLog"},
+							{1, "Exitem_nails"}
+						};
+				};
+			class CraftWorkBench: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Work Bench";
+					pictureItem = "Exile_Item_WorkBenchKit";
+					tools[] = 
+						{
+							"Exitem_measuringtape",
+							"Exile_Item_Hammer"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exile_Item_WorkBenchKit"}
+						};
+					components[] = 
+						{
+							{4, "Exile_Item_WoodLog"},
+							{1, "Exitem_nails"}
+						};
+				};
+			class CraftSmallShelf: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Small Shelf";
+					pictureItem = "Exitem_shelf_small";
+					requiredInteractionModelGroup = "WorkBench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exitem_torch"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_shelf_small"}
+						};
+					components[] = 
+						{
+							{10, "Exile_Item_WoodPlank"},
+							{4, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_MetalBoard"},
+							{3, "Exile_Item_MetalScrews"},
+							{2, "Exitem_nails"}
+						};
+				};
+			class CraftLargeShelf: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Large Shelf";
+					pictureItem = "Exitem_shelf_large";
+					requiredInteractionModelGroup = "AdvancedWorkbench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exitem_torch"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_shelf_large"}
+						};
+					components[] = 
+						{
+							{14, "Exile_Item_WoodPlank"},
+							{6, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalBoard"},
+							{3, "Exile_Item_MetalScrews"},
+							{3, "Exitem_nails"}
+						};
+				};
+			class CraftStoragePallet: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Storage Pallet";
+					pictureItem = "Exitem_pallet_large";
+					requiredInteractionModelGroup = "AdvancedWorkbench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_pallet_large"}
+						};
+					components[] = 
+						{
+							{10, "Exile_Item_WoodPlank"},
+							{4, "Exile_Item_MetalBoard"},
+							{1, "Exile_Item_MetalScrews"},
+							{2, "Exitem_nails"}
+						};
+				};
+			class CraftSleepingCot: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Sleeping Cot";
+					pictureItem = "Exitem_cot";
+					requiredInteractionModelGroup = "AdvancedWorkbench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_cot"}
+						};
+					components[] = 
+						{
+							{2, "Exile_Item_SleepingMat"},
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_Rope"},
+							{2, "Exile_Item_MetalScrews"}
+						};
+				};
+			class CraftAdvancedWorkbench: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Advanced Workbench";
+					pictureItem = "Exitem_advancedworkbench";
+					requiredInteractionModelGroup = "WorkBench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exile_Item_Wrench",
+							"Exitem_torch"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exitem_advancedworkbench"}
+						};
+					components[] = 
+						{
+							{4, "Exile_Item_MetalBoard"},
+							{4, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_MetalScrews"},
+							{2, "Exitem_nails"}
+						};
+				};
+			class CraftLabtop: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Laptop";
+					pictureItem = "Exile_Item_Laptop";
+					requiredInteractionModelGroup = "AdvancedWorkbench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exile_Item_Wrench",
+							"Exitem_torch"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exile_Item_Laptop"}
+						};
+					components[] = 
+						{
+							{8, "Exitem_electronics"},
+							{6, "Exitem_electricalcomp"},
+							{1, "Exile_Item_ExtensionCord"},
+							{2, "Exitem_camera"},
+							{4, "Exile_Item_MetalScrews"}
+						};
+				};
+			class CraftCodeLock: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Code Lock";
+					pictureItem = "Exile_Item_Codelock";
+					requiredInteractionModelGroup = "AdvancedWorkbench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exile_Item_Wrench",
+							"Exitem_torch"
+						};
+					returnedItems[] = 
+						{
+							//{1, "Exitem_blueprint_codelock"},
+							{1, "Exile_Item_Codelock"}
+						};
+					components[] = 
+						{
+							//{1, "Exitem_blueprint_codelock"},
+							{2, "Exile_Item_MetalBoard"},
+							{2, "Exitem_electricalcomp"},
+							{2, "Exitem_electronics"},
+							{1, "Exile_Item_DuctTape"},
+							{1, "Exile_Item_MetalScrews"}
+						};
+				};
+			//	class CraftEngine: Exile_AbstractCraftingRecipe  
+			//		{
+			//			name = "Craft Engine";
+			//			pictureItem = "exitem_engine";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Foolbox",
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Grinder",
+			//					"Exile_Item_Wrench",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_engine"},
+			//					{1, "Exitem_engine"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_engine"},
+			//					{4, "Exile_Item_MetalBoard"},
+			//					{6, "Exile_Item_MetalPole"},
+			//					{2, "Exile_Item_DuctTape"},
+			//					{1, "Exitem_carbattery"},
+			//					{1, "Exile_Item_OilCanister"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+			//	class CraftMainRotorAssembly: Exile_AbstractCraftingRecipe  
+			//		{
+			//			name = "Craft Main Rotor Assembly";
+			//			pictureItem = "Exitem_rotor";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Foolbox",
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Grinder",
+			//					"Exile_Item_Wrench",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_rotor"},
+			//					{1, "Exitem_rotor"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_rotor"},
+			//					{2, "Exile_Item_MetalBoard"},
+			//					{8, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_DuctTape"},
+			//					{1, "Exile_Item_OilCanister"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct RepairKits
+		// ----------------------------------------------------------------
+		//Exile Vanilla Construct RepairKits - CraftRepairKitConcrete
+			class CraftRepairKitConcrete: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Repair Kit";
+					pictureItem = "Exile_Item_Cement";
+					requiresConcreteMixer = true;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RepairKitConcrete"},
+							{1, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_Cement"},
+							{2, "Exile_Item_Sand"},
+							{1, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftRepairKitConcrete: Exile_AbstractCraftingRecipe
+			//		{
+			//		name = "Craft Concrete Repair Kit";
+			//		pictureItem = "Exile_Item_Cement";
+			//		requiresConcreteMixer = true;
+			//		returnedItems[] = 
+			//			{
+			//				{1, "Exitem_blueprint_concretebuilding"},
+			//				{1, "Exile_Item_RepairKitConcrete"},
+			//				{1, "Exile_Item_WaterCanisterEmpty"},
+			//				{1, "Exile_Item_FuelCanisterEmpty"}
+			//			};
+			//		components[] = 
+			//			{
+			//				{1, "Exitem_blueprint_concretebuilding"},
+			//				{4, "Exile_Item_Cement"},
+			//				{2, "Exile_Item_Sand"},
+			//				{1, "Exile_Item_WaterCanisterDirtyWater"},
+			//				{1, "Exile_Item_FuelCanisterFull"}
+			//			};
+			//		};
+		//Exile Vanilla Construct RepairKits - CraftRepairKitMetal
+			class CraftRepairKitMetal: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Metal Repair Kit";
+					pictureItem = "Exile_Item_MetalBoard";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RepairKitMetal"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalBoard"},
+							{4, "Exile_Item_MetalScrews"}
+						};
+				};
+			//	class CraftRepairKitMetal: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Metal Repair Kit";
+			//			pictureItem = "Exile_Item_RepairKitMetal";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_fortification"},
+			//					{1, "Exile_Item_RepairKitMetal"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_fortification"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_MetalBoard"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct RepairKits - CraftRepairKitWood
+			class CraftRepairKitWood: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Repair Kit";
+					pictureItem = "Exile_Item_WoodPlank";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RepairKitWood"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftRepairKitWood: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Repair Kit";
+			//			pictureItem = "Exile_Item_RepairKitWood";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_RepairKitWood"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{4, "Exile_Item_WoodPlank"}
+			//				};
+			//		};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct Wood
+		// ----------------------------------------------------------------
+		//Exile Vanilla Construct Wood - CraftWoodDoorWay
+			class CraftWoodDoorWay: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Doorway";
+					pictureItem = "Exile_Item_WoodDoorwayKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodDoorwayKit"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodDoorWay: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Doorway";
+			//			pictureItem = "Exile_Item_WoodDoorwayKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodDoorwayKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{8, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodFloor
+			class CraftWoodFloor: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Floor";
+					pictureItem = "Exile_Item_WoodFloorKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodFloorKit"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodFloor: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Floor";
+			//			pictureItem = "Exile_Item_WoodFloorKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodFloorKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{10, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodFloorPort
+			class CraftWoodFloorPort: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Floor Port";
+					pictureItem = "Exile_Item_WoodFloorPortKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodFloorPortKit"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodFloorPort: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Floor Port";
+			//			pictureItem = "Exile_Item_WoodFloorPortKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodFloorPortKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{8, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodGate
+			class CraftWoodGate: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Gate";
+					pictureItem = "Exile_Item_WoodGateKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodGateKit"}
+						};
+					components[] =
+						{
+							{8, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodGate: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Gate";
+			//			pictureItem = "Exile_Item_WoodGateKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodGateKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{10, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodPlank
+			class CraftWoodPlank: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Plank";
+					pictureItem = "Exile_Item_WoodPlank";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodPlank"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_WoodLog"}
+						};
+				};
+			//	class CraftWoodPlank: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Plank";
+			//			pictureItem = "Exile_Item_WoodPlank";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Handsaw", 
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodPlank"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{2, "Exile_Item_WoodLog"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodStairs
+			class CraftWoodStairs: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Stairs";
+					pictureItem = "Exile_Item_WoodStairsKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodStairsKit"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodStairs: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Stairs";
+			//			pictureItem = "Exile_Item_WoodStairsKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodStairsKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{6, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodSupport
+			class CraftWoodSupport: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Support";
+					pictureItem = "Exile_Item_WoodSupportKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodSupportKit"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodSupport: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Support";
+			//			pictureItem = "Exile_Item_WoodSupportKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodSupportKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{4, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodWall
+			class CraftWoodWall: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Wall";
+					pictureItem = "Exile_Item_WoodWallKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodWallKit"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodWall: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Wall";
+			//			pictureItem = "Exile_Item_WoodWallKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodWallKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{10, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodWallHalf
+			class CraftWoodWallHalf: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1/2 Wood Wall";
+					pictureItem = "Exile_Item_WoodWallHalfKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodWallHalfKit"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodWallHalf: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft 1/2 Wood Wall";
+			//			pictureItem = "Exile_Item_WoodWallHalfKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodWallHalfKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{5, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood - CraftWoodWindow
+			class CraftWoodWindow: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wood Window";
+					pictureItem = "Exile_Item_WoodWindowKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodWindowKit"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class CraftWoodWindow: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Wood Window";
+			//			pictureItem = "Exile_Item_WoodWindowKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodWindowKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{8, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood UPGRADE - UpgradeToWoodDoor
+			class UpgradeToWoodDoor: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Wood Door";
+					pictureItem = "Exile_Item_WoodDoorKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodDoorKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodDoorwayKit"},
+							{2, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class UpgradeToWoodDoor: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Wood Door";
+			//			pictureItem = "Exile_Item_WoodDoorKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodDoorKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exile_Item_WoodDoorwayKit"},
+			//					{2, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood UPGRADE - UpgradeToWoodFloorPort
+			class UpgradeToWoodFloorPort: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Wood Floor Port";
+					pictureItem = "Exile_Item_WoodFloorPortKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodFloorPortKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodFloorKit"},
+							{2, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class UpgradeToWoodFloorPort: Exile_AbstractCraftingRecipe
+			//	{
+			//		name = "Upgrade to Wood Floor Port";
+			//		pictureItem = "Exile_Item_WoodFloorPortKit";
+			//		requiredInteractionModelGroup = "WorkBench";
+			//		requiresFire = 0;
+			//		tools[] = 
+			//		{
+			//			"Exile_Item_Hammer",
+			//			"Exile_Item_Handsaw",
+			//			"Exitem_measuringtape"
+			//		};
+			//		returnedItems[] = 
+			//		{
+			//			{1, "Exile_Item_WoodFloorPortKit"}
+			//		};
+			//		components[] = 
+			//		{
+			//			{1, "Exile_Item_WoodFloorKit"},
+			//			{2, "Exile_Item_WoodPlank"},
+			//			{1, "Exitem_nails"}
+			//		};
+			//	};
+		//Exile Vanilla Construct Wood UPGRADE - UpgradeToWoodGate
+			class UpgradeToWoodGate: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Wood Gate";
+					pictureItem = "Exile_Item_WoodGateKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodGateKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodWallKit"},
+							{4, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class UpgradeToWoodGate: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Wood Gate";
+			//			pictureItem = "Exile_Item_WoodGateKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodGateKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exile_Item_WoodWallKit"},
+			//					{4, "Exile_Item_WoodPlank"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood UPGRADE - UpgradeToWoodWall
+			class UpgradeToWoodWall: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Wood Wall";
+					pictureItem = "Exile_Item_WoodWallHalfKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodWallKit"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_WoodWallHalfKit"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class UpgradeToWoodWall: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Wood Wall";
+			//			pictureItem = "Exile_Item_WoodWallHalfKit";
+			//			requiredInteractionModelGroup = "WorkBench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Handsaw",
+			//					"Exitem_measuringtape"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_WoodWallKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{2, "Exile_Item_WoodWallHalfKit"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Wood UPGRADE - UpgradeToWoodWindow
+			class UpgradeToWoodWindow: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Wood Window";
+					pictureItem = "Exile_Item_WoodWindowKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WoodWindowKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodWallKit"},
+							{2, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+			//	class UpgradeToWoodWindow: Exile_AbstractCraftingRecipe
+			//	{
+			//		name = "Upgrade to Wood Window";
+			//		pictureItem = "Exile_Item_WoodWindowKit";
+			//		requiredInteractionModelGroup = "WorkBench";
+			//		requiresFire = 0;
+			//		tools[] = 
+			//		{
+			//			"Exile_Item_Hammer",
+			//			"Exile_Item_Handsaw",
+			//			"Exitem_measuringtape"
+			//		};
+			//		returnedItems[] = 
+			//		{
+			//			{1, "Exile_Item_WoodWindowKit"}
+			//		};
+			//		components[] = 
+			//		{
+			//			{1, "Exile_Item_WoodWallKit"},
+			//			{2, "Exile_Item_WoodPlank"},
+			//			{1, "Exitem_nails"}
+			//		};
+			//	};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct Concrete
+		// ----------------------------------------------------------------
+		//Exile Vanilla Construct Concrete - CraftConcreteDoorway
+			class CraftConcreteDoorway: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Doorway";
+					pictureItem = "Exile_Item_ConcreteDoorwayKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteDoorwayKit"},
+							{3, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{3, "Exitem_cinderblock"},
+							{3, "Exile_Item_Cement"},
+							{3, "Exile_Item_Sand"},
+							{3, "Exile_Item_MetalPole"},
+							{3, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcreteDoorway: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Doorway";
+			//			pictureItem = "Exile_Item_ConcreteDoorwayKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteDoorwayKit"},
+			//					{3, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{3, "Exile_Item_Cement"},
+			//					{3, "Exile_Item_Sand"},
+			//					{3, "Exile_Item_MetalPole"},
+			//					{3, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcreteFloor
+			class CraftConcreteFloor: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Floor";
+					pictureItem = "Exile_Item_ConcreteFloorKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteFloorKit"},
+							{2, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{3, "Exitem_cinderblock"},
+							{2, "Exile_Item_Cement"},
+							{2, "Exile_Item_Sand"},
+							{2, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcreteFloor: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Floor";
+			//			pictureItem = "Exile_Item_ConcreteFloorKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteFloorKit"},
+			//					{2, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{2, "Exile_Item_Cement"},
+			//					{2, "Exile_Item_Sand"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{2, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcreteFloorPort
+			class CraftConcreteFloorPort: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Floor Port";
+					pictureItem = "Exile_Item_ConcreteFloorPortKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteFloorPortKit"},
+							{3, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{3, "Exitem_cinderblock"},
+							{3, "Exile_Item_Cement"},
+							{3, "Exile_Item_Sand"},
+							{3, "Exile_Item_MetalPole"},
+							{3, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcreteFloorPort: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Floor Port";
+			//			pictureItem = "Exile_Item_ConcreteFloorPortKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteFloorPortKit"},
+			//					{3, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{3, "Exile_Item_Cement"},
+			//					{3, "Exile_Item_Sand"},
+			//					{3, "Exile_Item_MetalPole"},
+			//					{3, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcreteGate
+			class CraftConcreteGate: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Gate";
+					pictureItem = "Exile_Item_ConcreteGateKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteGateKit"},
+							{4, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{3, "Exitem_cinderblock"},
+							{4, "Exile_Item_Cement"},
+							{4, "Exile_Item_Sand"},
+							{4, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcreteGate: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Gate";
+			//			pictureItem = "Exile_Item_ConcreteGateKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteGateKit"},
+			//					{4, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{4, "Exile_Item_Cement"},
+			//					{4, "Exile_Item_Sand"},
+			//					{4, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcretStairs
+			class CraftConcretStairs: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Stairs";
+					pictureItem = "Exile_Item_ConcreteStairsKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteStairsKit"},
+							{1, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{2, "Exitem_cinderblock"},
+							{1, "Exile_Item_Cement"},
+							{1, "Exile_Item_Sand"},
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcretStairs: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Stairs";
+			//			pictureItem = "Exile_Item_ConcreteStairsKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteStairsKit"},
+			//					{1, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_Cement"},
+			//					{1, "Exile_Item_Sand"},
+			//					{1, "Exile_Item_MetalPole"},
+			//					{1, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcretSupport
+			class CraftConcretSupport: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Support";
+					pictureItem = "Exile_Item_ConcreteSupportKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteSupportKit"},
+							{1, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{1, "Exitem_cinderblock"},
+							{1, "Exile_Item_Cement"},
+							{1, "Exile_Item_Sand"},
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcretSupport: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Support";
+			//			pictureItem = "Exile_Item_ConcreteSupportKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteSupportKit"},
+			//					{1, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_Cement"},
+			//					{1, "Exile_Item_Sand"},
+			//					{1, "Exile_Item_MetalPole"},
+			//					{1, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete - CraftConcreteWall
+			class CraftConcreteWall: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Concrete Wall";
+					pictureItem = "Exile_Item_ConcreteWallKit";
+					requiresConcreteMixer = true;
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteWallKit"},
+							{2, "Exile_Item_WaterCanisterEmpty"},
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{3, "Exitem_cinderblock"},
+							{2, "Exile_Item_Cement"},
+							{2, "Exile_Item_Sand"},
+							{2, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_WaterCanisterDirtyWater"},
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+			//	class CraftConcreteWall: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Concrete Wall";
+			//			pictureItem = "Exile_Item_ConcreteWallKit";
+			//			requiresConcreteMixer = true;
+			//			requiresFire = 0;
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteWallKit"},
+			//					{2, "Exile_Item_WaterCanisterEmpty"},
+			//					{1, "Exile_Item_FuelCanisterEmpty"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{2, "Exile_Item_Cement"},
+			//					{2, "Exile_Item_Sand"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{2, "Exile_Item_WaterCanisterDirtyWater"},
+			//					{1, "Exile_Item_FuelCanisterFull"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete UPGRADE - UpgradeToConcreteDoor
+			class UpgradeToConcreteDoor: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Concrete Door";
+					pictureItem = "Exile_Item_ConcreteDoorKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteDoorKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ConcreteDoorwayKit"},
+							{2, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalBoard"}
+						};
+				};
+			//	class UpgradeToConcreteDoor: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Concrete Door";
+			//			pictureItem = "Exile_Item_ConcreteDoorKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteDoorKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteDoorwayKit"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_MetalBoard"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete UPGRADE - UpgradeToConcreteFloorPort
+			class UpgradeToConcreteFloorPort: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Concrete Floor Port";
+					pictureItem = "Exile_Item_ConcreteFloorPortKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteFloorPortKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ConcreteFloorKit"},
+							{2, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalBoard"}
+						};
+				};
+			//	class UpgradeToConcreteFloorPort: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Concrete Floor Port";
+			//			pictureItem = "Exile_Item_ConcreteFloorPortKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteFloorPortKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteFloorKit"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_MetalBoard"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete UPGRADE - UpgradeToConcreteGate
+			class UpgradeToConcreteGate: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Concrete Gate";
+					pictureItem = "Exile_Item_ConcreteGateKit";
+					requiredInteractionModelGroup = "WorkBench";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteGateKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ConcreteWallKit"},
+							{2, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalBoard"}
+						};
+				};
+			//	class UpgradeToConcreteGate: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Concrete Gate";
+			//			pictureItem = "Exile_Item_ConcreteGateKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteGateKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteWallKit"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_MetalBoard"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Concrete UPGRADE - UpgradeToConcreteWindow
+			class UpgradeToConcreteWindow: Exile_AbstractCraftingRecipe
+				{
+					name = "Upgrade to Concrete Window";
+					pictureItem = "Exile_Item_ConcreteWindowKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ConcreteWindowKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ConcreteWallKit"},
+							{2, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalBoard"}
+						};
+				};
+			//	class UpgradeToConcreteWindow: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Upgrade to Concrete Window";
+			//			pictureItem = "Exile_Item_ConcreteWindowKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteWindowKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretebuilding"},
+			//					{1, "Exile_Item_ConcreteWallKit"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{4, "Exile_Item_MetalBoard"}
+			//				};
+			//		};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct Bombs
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct Bombs - BreachingChargeBigMomma
+			class BreachingChargeBigMomma: Exile_AbstractCraftingRecipe
+				{
+					name = "Breaching Charge (Big Momma)";
+					pictureItem = "Exile_Item_BreachingCharge_BigMomma";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Wrench",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BreachingCharge_BigMomma"}
+						};
+					components[] =
+						{
+							{5, "Exile_Item_BreachingCharge_Metal"},
+							{3, "Exile_Item_MobilePhone"},
+							{2, "Exitem_electronics"},
+							{2, "Exitem_electricalcomp"},
+							{3, "Exile_Item_MetalWire"},
+							{3, "Exile_Item_DuctTape"},
+							{5, "Exile_Item_ZipTie"}
+						};
+				};
+			//	class BreachingChargeBigMomma: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Breaching Charge (Big Momma)";
+			//			pictureItem = "Exile_Item_BreachingCharge_BigMomma";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] =
+			//				{
+			//					"Exile_Item_Foolbox"
+			//				};
+			//			returnedItems[] =
+			//				{
+			//					{1, "Exitem_blueprint_concretecharge"},
+			//					{1, "Exile_Item_BreachingCharge_BigMomma"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_concretecharge"},
+			//					{3, "Exile_Item_BreachingCharge_Metal"},
+			//					{1, "Exile_Item_MobilePhone"},
+			//					{1, "Exile_Item_DuctTape"},
+			//					{1, "Exile_Item_ZipTie"} 
+			//				};
+			//		};
+		// Exile Vanilla Recipe: Construct Bombs - BreachingChargeMetal
+			class BreachingChargeMetal: Exile_AbstractCraftingRecipe
+				{
+					name = "Breaching Charge (Metal)";
+					pictureItem = "Exile_Item_BreachingCharge_Metal";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Wrench",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BreachingCharge_Metal"}
+						};
+					components[] =
+						{
+							{3, "SatchelCharge_Remote_Mag"},
+							{2, "Exile_Item_MobilePhone"},
+							{1, "Exitem_electronics"},
+							{1, "Exitem_electricalcomp"},
+							{2, "Exile_Item_MetalWire"},
+							{2, "Exile_Item_DuctTape"},
+							{5, "Exile_Item_ZipTie"}
+						};
+				};
+			//	class BreachingChargeMetal: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Breaching Charge (Metal)";
+			//			pictureItem = "Exile_Item_BreachingCharge_Metal";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 0;
+			//			tools[] =
+			//				{
+			//					"Exile_Item_Foolbox"
+			//				};
+			//			returnedItems[] =
+			//				{
+			//					{1, "Exitem_blueprint_metalcharge"},
+			//					{1, "Exile_Item_BreachingCharge_Metal"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_metalcharge"},
+			//					{1, "Exile_Item_DuctTape"},
+			//					{1, "Exile_Item_MobilePhone"},
+			//					{1, "SatchelCharge_Remote_Mag"}
+			//				};
+			//		};
+		// Exile Vanilla Recipe: Construct Bombs - BreachingChargeWood
+			class BreachingChargeWood: Exile_AbstractCraftingRecipe
+				{
+					name = "Breaching Charge (Wood)";
+					pictureItem = "Exile_Item_BreachingCharge_Wood";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Wrench",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BreachingCharge_Wood"}
+						};
+					components[] =
+						{
+							{1, "DemoCharge_Remote_Mag"},
+							{1, "Exile_Item_MobilePhone"},
+							{1, "Exitem_electronics"},
+							{1, "Exile_Item_MetalWire"},
+							{1, "Exile_Item_DuctTape"},
+							{5, "Exile_Item_ZipTie"}
+						};
+				};
+			//	class BreachingChargeWood: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Breaching Charge (Wood)";
+			//			pictureItem = "Exile_Item_BreachingCharge_Wood";
+			//			requiredInteractionModelGroup = "Workbench";
+			//			requiresFire = 0;
+			//			tools[] =
+			//				{
+			//					"Exile_Item_Foolbox"
+			//				};
+			//			returnedItems[] =
+			//				{
+			//					{1, "Exitem_blueprint_woodcharge"},
+			//					{1, "Exile_Item_BreachingCharge_Wood"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_woodcharge"},
+			//					{1, "Exile_Item_DuctTape"},
+			//					{1, "Exile_Item_MobilePhone"},
+			//					{1, "DemoCharge_Remote_Mag"}
+			//				};
+			//		};
+		// ----------------------------------------------------------------
+		// Exile Vanilla Recipe: Construct Others
+		// ----------------------------------------------------------------
+		//Exile Vanilla Others - CraftWorkBench
+		//	class CraftWorkBench: Exile_AbstractCraftingRecipe
+		//		{
+		//			name = "Craft Work Bench";
+		//			pictureItem = "Exile_Item_WorkBenchKit";
+		//			requiresFire = 0;
+		//			returnedItems[] =
+		//				{
+		//					{1, "Exile_Item_WorkBenchKit"}
+		//				};
+		//			components[] =
+		//				{
+		//					{4, "Exile_Item_WoodLog"}
+		//				};
+		//		};
+		//Exile Vanilla Others - FillFuelCanister
+			class FillFuelCanister: Exile_AbstractCraftingRecipe
+				{
+					name = "Fill Fuel Canister";
+					pictureItem = "Exile_Item_FuelCanisterFull";
+					requiredInteractionModelGroup = "FuelSource";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+				};
+		//Exile Vanilla Others - EmptyFuelCanister
+			class EmptyFuelCanister: Exile_AbstractCraftingRecipe
+				{
+					name = "Empty Fuel Canister";
+					pictureItem = "Exile_Item_FuelCanisterEmpty";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_FuelCanisterEmpty"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_FuelCanisterFull"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftHBarrier5Kit
+			class CraftHBarrier5Kit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft H-barrier (5 Blocks)";
+					pictureItem = "Exile_Item_HBarrier5Kit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Pliers"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_HBarrier5Kit"}
+						};
+					components[] =
+						{
+							{3, "Exile_Item_SandBagsKit_Long"},
+							{2, "Exile_Item_MetalWire"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftFirePlace1
+			class CraftFirePlace1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Fire Place from Logs";
+					pictureItem = "Exile_Item_CampFireKit";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CampFireKit"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_WoodLog"},
+							{1, "Exitem_stones"},
+							{1, "Exile_Item_Leaves"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftFirePlace2
+			class CraftFirePlace2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Fire Place from Woodpile";
+					pictureItem = "Exile_Item_CampFireKit";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CampFireKit"}
+						};
+					components[] =
+						{
+							{1, "Exitem_woodpile"},
+							{1, "Exitem_stones"},
+							{1, "Exile_Item_Leaves"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftFloodLight
+			class CraftFloodLight: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Flood Light";
+					pictureItem = "Exile_Item_FloodLightKit";
+					requiresFire = 0;
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Wrench",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_FloodLightKit"}
+						};
+					components[] =
+						{
+							{3, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_LightBulb"},
+							{1, "Exile_Item_ExtensionCord"}
+						};
+				};
+			//	class CraftFloodLight: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Flood Light";
+			//			pictureItem = "Exile_Item_FloodLightKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Foolbox"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_floodlight"},
+			//					{1, "Exile_Item_FloodLightKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_floodlight"},
+			//					{1, "Exile_Item_MetalPole"},
+			//					{1, "Exile_Item_LightBulb"},
+			//					{1, "Exile_Item_ExtensionCord"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftMetalHedgehog
+			class CraftMetalHedgehog: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Metal Hedgehog";
+					pictureItem = "Exile_Item_MetalHedgehogKit";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MetalHedgehogKit"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalPole"}
+						};
+				};
+			//	class CraftMetalHedgehog: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Metal Hedgehog";
+			//			pictureItem = "Exile_Item_MetalHedgehogKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_MetalHedgehogKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{4, "Exile_Item_MetalPole"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftPortableGenerator
+			class CraftPortableGenerator: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Portable Generator";
+					pictureItem = "Exile_Item_PortableGeneratorKit";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw",
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_PortableGeneratorKit"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalBoard"},
+							{2, "Exile_Item_FuelCanisterFull"},
+							{1, "Exile_Item_ExtensionCord"}
+						};
+				};
+			//	class CraftPortableGenerator: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Portable Generator";
+			//			pictureItem = "Exile_Item_PortableGeneratorKit";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Foolbox"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_generator"},
+			//					{1, "Exile_Item_PortableGeneratorKit"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_generator"},
+			//					{4, "Exile_Item_MetalBoard"},
+			//					{1, "Exile_Item_FuelCanisterFull"},
+			//					{1, "Exile_Item_ExtensionCord"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftSandBagsKitCorner
+			class CraftSandBagsKitCorner: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sandbags Kit (Corner)";
+					pictureItem = "Exile_Item_SandBagsKit_Corner";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SandBagsKit_Corner"}
+						};
+					components[] =
+						{
+							{3, "Exile_Item_Sand"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftSandBagsKitLong
+			class CraftSandBagsKitLong: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sand Bags Kit (Long)";
+					pictureItem = "Exile_Item_SandBagsKit_Long";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SandBagsKit_Long"}
+						};
+					components[] =
+						{
+							{6, "Exile_Item_Sand"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftMetalPole
+			class CraftMetalPole: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Metal Pole";
+					pictureItem = "Exile_Item_MetalPole";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MetalPole"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_JunkMetal"}
+						};
+				};
+			//	class CraftMetalPole: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Metal Pole";
+			//			pictureItem = "Exile_Item_MetalPole";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_MetalPole"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_metal"},
+			//					{4, "Exile_Item_JunkMetal"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftMetalBoard
+			class CraftMetalBoard: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Metal Board";
+					pictureItem = "Exile_Item_MetalBoard";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MetalBoard"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_JunkMetal"}
+						};
+				};
+			//	class CraftMetalBoard: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Metal Board";
+			//			pictureItem = "Exile_Item_MetalBoard";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exile_Item_MetalBoard"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_metal"},
+			//					{4, "Exile_Item_JunkMetal"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftFortificationUpgrade
+			class CraftFortificationUpgrade: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Fortification Upgrade";
+					pictureItem = "Exile_Item_MetalBoard"; //<< CHANGE IT
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Grinder",
+							"Exile_Item_ScrewDriver",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_FortificationUpgrade"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalBoard"},
+							{1, "Exile_Item_MetalScrews"}
+						};
+				};
+			//	class CraftFortificationUpgrade: Exile_AbstractCraftingRecipe
+			//		{
+			//			name = "Craft Fortification Upgrade";
+			//			pictureItem = "Exile_Item_MetalBoard"; 
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			requiresFire = 1;
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Hammer",
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_fortification"},
+			//					{1, "Exile_Item_FortificationUpgrade"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_fortification"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{8, "Exile_Item_MetalBoard"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//Exile Vanilla Construct Others - CraftStorageCrate
+			class CraftStorageCrate: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Storage Crate";
+					pictureItem = "Exile_Item_StorageCrateKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Hammer",
+							"Exile_Item_Handsaw",
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_StorageCrateKit"}
+						};
+					components[] =
+						{
+							{5, "Exile_Item_WoodPlank"},
+							{1, "Exitem_nails"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftWaterBarrel
+			class CraftWaterBarrel: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Water Barrel";
+					pictureItem = "Exile_Item_WaterBarrelKit";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] =
+						{
+							"Exitem_measuringtape"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WaterBarrelKit"}
+						};
+					components[] =
+						{
+							{20, "Exile_Item_PlasticBottleEmpty"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftWireFenceKit
+			class CraftWireFenceKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Wire Fence Kit";
+					pictureItem = "Exile_Item_WireFenceKit_Long";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_WireFenceKit"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalPole"},
+							{6, "Exile_Item_MetalWire"},
+							{1, "Exile_Item_MetalScrews"}
+						};
+				};
+		//Exile Vanilla Construct Others - CraftRazorWireKit
+			class CraftRazorWireKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Razor Wire Kit Kit";
+					pictureItem = "Exile_Item_RazorWireKit_Long";
+					requiredInteractionModelGroup = "WorkBench";
+					tools[] =
+						{
+							"Exile_Item_Grinder",
+							"Exile_Item_Pliers",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_RazorWireKit_Long"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_MetalWire"},
+							{1, "Exile_Item_MetalScrews"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Experimental
+		// ----------------------------------------------------------------
+		/*
+			class CraftBushKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft bush kit";
+					pictureItem = "Exile_Item_BushKit_Green";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Pliers"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BushKit_Green"}
+						};
+					components[] =
+						{
+							{8, "Exile_Item_Leaves"},
+							{4, "Exile_Item_WoodSticks"},
+							{1, "Exile_Item_Rope"}
+						};
+				};
+		*/
+			class CraftPackToolBox: Exile_AbstractCraftingRecipe
+				{
+					name = "Pack Tool Box";
+					pictureItem = "Exitem_toolbox";
+					returnedItems[] =
+						{
+							{1, "Exitem_toolbox"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ScrewDriver"},
+							{1, "Exile_Item_Pliers"},
+							{1, "Exile_Item_Hammer"},
+							{1, "Exile_Item_Knife"},
+							{1, "Exile_Item_Handsaw"},
+							{1, "Exile_Item_Grinder"},
+							{1,	"Exile_Item_Wrench"},
+							{1, "Exitem_measuringtape"},
+							{1, "Exitem_torch"}
+						};
+				};
+			class CraftUnPackToolBox: Exile_AbstractCraftingRecipe
+				{
+					name = "Unpack Tool Box";
+					pictureItem = "Exitem_toolbox";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ScrewDriver"},
+							{1, "Exile_Item_Pliers"},
+							{1, "Exile_Item_Hammer"},
+							{1, "Exile_Item_Knife"},
+							{1, "Exile_Item_Handsaw"},
+							{1, "Exile_Item_Grinder"},
+							{1,	"Exile_Item_Wrench"},
+							{1, "Exitem_measuringtape"},
+							{1, "Exitem_torch"}
+						};
+					components[] =
+						{
+							{1, "Exitem_toolbox"}
+						};
+				};
+			class CraftPackFoolBox: Exile_AbstractCraftingRecipe
+				{
+					name = "Pack Fool Box";
+					pictureItem = "Exile_Item_Foolbox";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Foolbox"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_ScrewDriver"},
+							{1, "Exile_Item_Pliers"},
+							{1, "Exile_Item_Hammer"},
+							{1, "Exile_Item_Knife"},
+							{1, "Exitem_measuringtape"},
+							{1,	"Exile_Item_Wrench"},
+							{1, "Exile_Item_Handsaw"}
+						};
+				};
+			class CraftUnPackFoolBox: Exile_AbstractCraftingRecipe
+				{
+					name = "Unpack Fool Box";
+					pictureItem = "Exile_Item_Foolbox";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ScrewDriver"},
+							{1, "Exile_Item_Pliers"},
+							{1, "Exile_Item_Hammer"},
+							{1, "Exile_Item_Knife"},
+							{1, "Exitem_measuringtape"},
+							{1,	"Exile_Item_Wrench"},
+							{1, "Exile_Item_Handsaw"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Foolbox"}
+						};
+				};
+		class CraftPackFAK: Exile_AbstractCraftingRecipe
+			{
+				name = "Pack First Aid Kit";
+				pictureItem = "Exitem_firstaid";
+				returnedItems[] =
+					{
+						{1, "Exitem_firstaid"}
+					};
+				components[] =
+					{
+						{1, "Exitem_painkillers"},
+						{2, "Exitem_dressing"},
+						{1, "Exile_Item_Bandage"}
+					};
+			};
+		class CraftUnPackFAK: Exile_AbstractCraftingRecipe
+			{
+				name = "Unpack First Aid Kit";
+				pictureItem = "Exitem_firstaid";
+				returnedItems[] =
+					{
+						{1, "Exitem_painkillers"},
+						{2, "Exitem_dressing"},
+						{1, "Exile_Item_Bandage"}
+					};
+				components[] =
+					{
+						{1, "Exitem_firstaid"}
+					};
+			};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Tools - Arma3 Items
+		// ----------------------------------------------------------------
+		//MiJ Custom Arma3 Items Recipes - ToiletPaper1
+			class Exile_Item_ToiletPaper1: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Magazine Vol.01";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Magazine01"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes - ToiletPaper2
+			class Exile_Item_ToiletPaper2: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Magazine Vol.02";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Magazine02"}
+						};
+			};
+		//MiJ Custom Arma3 Items Recipes - ToiletPaper3
+			class Exile_Item_ToiletPaper3: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Magazine Vol.03";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Magazine03"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes - ToiletPaper4
+			class Exile_Item_ToiletPaper4: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Magazine Vol.04";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Magazine04"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes [ExItems] - ToiletPaper5
+			class Exile_Item_ToiletPaper5: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Book";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exitem_book1"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes [ExItems] - ToiletPaper5
+			class Exile_Item_ToiletPaper6: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Book";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exitem_book2"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes [ExItems] - ToiletPaper5
+			class Exile_Item_ToiletPaper7: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Book";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exitem_book3"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes [ExItems] - ToiletPaper5
+			class Exile_Item_ToiletPaper8: Exile_AbstractCraftingRecipe
+				{
+					name = "Tear Money";
+					pictureItem = "Exile_Item_ToiletPaper";
+					category = "Items";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ToiletPaper"}
+						};
+					components[] =
+						{
+							{1, "Exitem_money"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes - Watch
+		//	class ItemWatch: Exile_AbstractCraftingRecipe
+		//		{
+		//			name = "Craft a Watch";
+		//			pictureItem = "ItemWatch";
+		//			category = "Items";
+		//			requiresFire = 0;
+		//			returnedItems[] =
+		//				{
+		//					{1, "ItemWatch"}
+		//				};
+		//			components[] =
+		//				{
+		//					{1, "Exile_Item_DuctTape"},
+		//					{1, "Exile_Item_JunkMetal"}
+		//				};
+		//		};
+		//MiJ Custom Arma3 Items Recipes - ItemCompass
+		//	class ItemCompass: Exile_AbstractCraftingRecipe
+		//		{
+		//			name = "Craft Compass";
+		//			pictureItem = "ItemCompass";
+		//			category = "Items";
+		//			returnedItems[] =
+		//				{
+		//					{1, "ItemCompass"}
+		//				};
+		//			components[] =
+		//				{
+		//					{1, "Exile_Item_Can_Empty"},
+		//					{1, "Exile_Item_PlasticBottleFreshWater"},
+		//					{1, "Exile_Item_JunkMetal"}
+		//				};
+		//		};
+		//MiJ Custom Arma3 Items Recipes - ItemRadio
+		//	class ItemRadio: Exile_AbstractCraftingRecipe
+		//		{
+		//			name = "Craft Radio";
+		//			pictureItem = "ItemRadio";
+		//			category = "Items";
+		//			returnedItems[] =
+		//				{
+		//					{1, "ItemRadio"}
+		//				};
+		//			components[] =
+		//				{
+		//					{2, "Exile_Item_Can_Empty"},
+		//					{1, "Exile_Item_ExtensionCord"}
+		//				};
+		//		};
+		//MiJ Custom Arma3 Items Recipes - GasMask
+			class Exile_Headgear_GasMask: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft GasMask";
+					pictureItem = "Exile_Headgear_GasMask";
+					category = "Items";
+					returnedItems[] =
+						{
+							{1, "Exile_Headgear_GasMask"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_DuctTape"},
+							{2, "Exile_Item_ZipTie"},
+							{4, "Exile_Item_Can_Empty"},
+							{1, "Exile_Item_Vishpirin"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes - Binoculars
+			class Binocular: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Binoculars";
+					pictureItem = "Binocular";
+					category = "Items";
+					returnedItems[] =
+						{
+							{1, "Binocular"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_Can_Empty"},
+							{2, "Exile_Item_ZipTie"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Arma3 Items Recipes - DuctTape
+			class Exile_Item_DuctTape: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft DuctTape";
+					pictureItem = "Exile_Item_DuctTape";
+					category = "Items";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_DuctTape"}
+						};
+					components[] =
+						{
+							{2, "Exitem_bandage_dirty"},
+							{1, "Exitem_glue"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Tools
+		// ----------------------------------------------------------------
+		//MiJ Custom Tools Recipes - Can Opener
+			class crafted_canOpener: Exile_AbstractCraftingRecipe
+				{
+					name = "Can Opener";
+					pictureItem = "Exile_Item_CanOpener";
+					category = "Hardware";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Pliers"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CanOpener"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_Can_Empty"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Restraints 1
+			class TiefromRope: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Restraint from Rope";
+					pictureItem = "Exile_Item_ZipTie";
+					category = "Hardware";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ZipTie"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Rope"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Restraints 2
+			class TiefromTape: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Restraint from DuctTape";
+					pictureItem = "Exile_Item_ZipTie";
+					category = "Hardware";
+					returnedItems[] =
+						{
+							{1, "Exile_Item_ZipTie"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_DuctTape"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Cooking Pot
+			class Exile_Item_CookingPot: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Cookingpot";
+					pictureItem = "Exile_Item_CookingPot";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_CookingPot"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_JunkMetal"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Axe
+			class Exile_melee_Axe: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft an Axe";
+					pictureItem = "Exile_melee_Axe";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_melee_Axe"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodLog"},
+							{2, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_metalboard"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Knife
+			class Exile_Item_Knife: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Knife from Screws";
+					pictureItem = "Exile_Item_Knife";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Knife"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodLog"},
+							{1, "Exile_Item_CookingPot"},
+							{5, "Exile_Item_MetalScrews"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Knife2
+			class Exile_Item_Knife2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Knife from Nails";
+					pictureItem = "Exile_Item_Knife";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Knife"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_WoodLog"},
+							{1, "Exile_Item_CookingPot"},
+							{7, "Exitem_nails"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Hammer
+			class Exile_Item_Hammer: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Hammer";
+					pictureItem = "Exile_Item_Hammer";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Hammer"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_WoodLog"},
+							{4, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_MetalScrews"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Pliers
+			class Exile_Item_Pliers: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Pliers";
+					pictureItem = "Exile_Item_Pliers";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Pliers"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_metalboard"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Screw Driver
+			class Exile_Item_Screwdriver: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Screwdriver";
+					pictureItem = "Exile_Item_Screwdriver";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Screwdriver"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_CookingPot"},
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_WoodLog"}
+						};
+				};
+		//MiJ Custom Tools Recipes - Shovel
+			class Exile_Item_Shovel: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft a Shovel";
+					pictureItem = "Exile_Item_Shovel";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Shovel"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_WoodLog"},
+							{2, "Exile_Item_MetalScrews"}
+						};
+				};
+		//MiJ Custom Tools Recipes - 10 Metal Screws
+			class Exile_Item_MetalScrews: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Box of MetalScrews";
+					pictureItem = "Exile_Item_MetalScrews";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_MetalScrews"}
+						};
+					components[] =
+						{
+							{10, "Exile_Item_Can_Empty"},
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Craftables
+		// ----------------------------------------------------------------
+		//MiJ Custom Craftables Recipes - Junk Metal from Empty Cans
+			class CraftJunkMetal1: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Empty Cans";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{10, "Exile_Item_Can_Empty"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Can Openers
+			class CraftJunkMetal3: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Can Openers";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{5, "Exile_Item_CanOpener"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Axe
+			class CraftJunkMetal4: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Axe";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{1, "Exile_melee_Axe"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Hammer
+			class CraftJunkMetal5: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Hammer";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Hammer"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Shovel
+			class CraftJunkMetal6: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Shovel";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_Shovel"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Pliers
+			class CraftJunkMetal7: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Pliers";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_Pliers"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Screwdriver
+			class CraftJunkMetal8: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Screwdriver";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_Screwdriver"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Cooking Pot
+			class CraftJunkMetal9: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Cooking Pots";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_CookingPot"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Crushed Cans
+			class CraftJunkMeta20: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Crushed Cans";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{20, "Exitem_can_crushed"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Bear Trap
+			class CraftJunkMetal23: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Buckets";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{5, "Exitem_bucket"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Buckets
+			class CraftJunkMetal21: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Bear Traps";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{3, "Exitem_beartrap"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - Junk Metal from Buckets
+			class CraftJunkMetal22: Exile_AbstractCraftingRecipe
+				{
+					name = "Scrap Fire Extinguisher";
+					pictureItem = "Exile_Item_JunkMetal";
+					category = "Hardware";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_JunkMetal"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_FireExtinguisher"}
+						};
+				};
+		//MiJ Custom Craftables Recipes - 5 Leaves
+		/*
+			class Exile_Item_Leaves: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 5 Leaves";
+					pictureItem = "Exile_Item_Leaves";
+					category = "Craftables";
+					tools[] = 
+						{
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{5, "Exile_Item_Leaves"}
+						};
+					components[] =
+						{
+									{5, "Exile_Item_WoodSticks"},
+						};
+				};
+		//MiJ Custom Craftables Recipes - 10 Woodsticks
+			class Exile_Item_WoodSticks: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 10 Woodsticks";
+					pictureItem = "Exile_Item_WoodSticks";
+					category = "Craftables";
+					tools[] = 
+						{
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{10, "Exile_Item_WoodSticks"}
+						};
+					components[] =
+						{
+									{3, "Exile_Item_WoodLog"},
+						};
+				};
+		*/
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Building
+		// ----------------------------------------------------------------
+		//MiJ Custom Building Recipes - Flag
+			class CraftFlag: Exile_AbstractCraftingRecipe  
+				{
+					name = "Craft Base Flag";
+					pictureItem = "Exile_Item_Flag";
+					category = "Building";
+					requiredInteractionModelGroup = "WorkBench";
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] = 
+						{
+							{1, "Exile_Item_Flag"}
+						};
+					components[] = 
+						{
+							{6, "Exile_Item_MetalPole"},
+							{6, "Exitem_cloth"},
+							{2, "Exile_Item_DuctTape"},
+							{4, "Exitem_nails"}
+						};
+				};
+			class Exile_Item_BaseCameraKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Camera Base Kit";
+					pictureItem = "Exile_Item_BaseCameraKit";
+					category = "Building";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_BaseCameraKit"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_ExtensionCord"},
+							{1, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_MetalScrews"},
+							{2, "Exile_Item_MetalWire"}
+						};
+				};
+		//MiJ Custom Building Recipes - Safe Kit
+			class Exile_Item_SafeKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Safe";
+					pictureItem = "Exile_Item_SafeKit";
+					category = "Building";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_ScrewDriver",
+							"Exile_Item_Pliers",
+							"Exile_Item_Hammer",
+							"Exile_Item_Knife",
+							"Exitem_measuringtape",
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_SafeKit"}
+						};
+					components[] =
+						{
+							{8, "Exile_Item_MetalPole"},
+							{6, "Exile_Item_MetalBoard"},
+							{4, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_Codelock"}
+						};
+				};
+		//MiJ Custom Building Recipes - Camo Tent
+			class Exile_Item_Camo_TentKit: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Camo Tent";
+					pictureItem = "Exile_Item_Camo_TentKit";
+					category = "Building";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Handsaw"
+						};
+					returnedItems[] =
+						{
+							{1, "Exile_Item_Camo_TentKit"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_DuctTape"},
+							{4, "Exile_Item_WoodPlank"},
+							{2, "Exile_Item_Rope"},
+							{1, "Exile_Item_ZipTie"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Attachments
+		// ----------------------------------------------------------------
+		//MiJ Custom Attachments Recipes - Weapon Attachments: FlashLights
+			class acc_flashlight1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Attachment Flashlight from Maglight";
+					pictureItem = "acc_flashlight";
+					category = "Weapon Attachments";
+					requiresFire = 0;
+					returnedItems[] =
+						{
+							{1, "acc_flashlight"}
+						};
+					components[] =
+						{
+							{1, "Exitem_flashlight"},
+							{1, "Exile_Item_DuctTape"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Weapon Attachments: FlashLights
+			class acc_flashlight2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Attachment Flashlight from junk";
+					pictureItem = "acc_flashlight";
+					category = "Weapon Attachments";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "acc_flashlight"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Weapon Attachments:
+			class acc_pointer_IR: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Attachment IR Pointer from Junk";
+					pictureItem = "acc_pointer_IR";
+					category = "Weapon Attachments";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder",
+							"Exitem_torch"
+						};
+					returnedItems[] =
+						{
+							{1, "acc_pointer_IR"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_LightBulb"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Attachments - Silencers
+		// ----------------------------------------------------------------
+		//MiJ Custom Attachments Recipes - Silencers: 9mm
+			class muzzle_snds_L: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sound Suppressor (9 mm)";
+					pictureItem = "muzzle_snds_L";
+					category = "Silencers";
+					returnedItems[] =
+						{
+							{1, "muzzle_snds_L"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_Can_Empty"},
+							{1, "Exile_Item_DuctTape"}
+						};
+				};
+			//	class Craft9mmSuppressor: Exile_AbstractCraftingRecipe  
+			//	{
+			//		name = "9mm Suppressor";
+			//		pictureItem = "";
+			//		requiredInteractionModelGroup = "AdvancedWorkbench";
+			//		tools[] = 
+			//		{
+			//			"Exile_Item_Grinder",
+			//			"Exitem_torch",
+			//			"Exile_Item_Hammer"
+			//		};
+			//		returnedItems[] = 
+			//		{
+			//			{1, "Exitem_blueprint_9mmsuppressor"},
+			//			{1, "muzzle_snds_L"}
+			//		};
+			//		components[] = 
+			//		{
+			//			{1, "Exitem_blueprint_9mmsuppressor"},
+			//			{1, "Exile_Item_MetalPole"},
+			//			{1, "Exile_Item_Can_Empty"},
+			//			{1, "Exile_Item_DuctTape"},
+			//			{1, "Exitem_nails"}
+			//		};
+			//	};
+		//MiJ Custom Attachments Recipes - Silencers: 5.56mm
+			class muzzle_snds_M: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sound Suppressor (5.56 mm)";
+					pictureItem = "muzzle_snds_M";
+					category = "Silencers";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "muzzle_snds_M"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_Can_Empty"},
+							{1, "Exile_Item_DuctTape"}
+						};
+				};
+			//	class Craft556Suppressor: Exile_AbstractCraftingRecipe  
+			//		{
+			//			name = "Craft 5.56 Suppressor";
+			//			pictureItem = "";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch",
+			//					"Exile_Item_Hammer"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_556suppressor"},
+			//					{1, "muzzle_snds_M"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_556suppressor"},
+			//					{2, "Exile_Item_MetalPole"},
+			//					{1, "Exile_Item_Can_Empty"},
+			//					{1, "Exile_Item_DuctTape"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		//MiJ Custom Attachments Recipes - Silencers: 6.5mm
+			class muzzle_snds_H: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sound Suppressor (6.5 mm)";
+					pictureItem = "muzzle_snds_H";
+					category = "Silencers";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "muzzle_snds_H"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_Can_Empty"},
+							{1, "Exile_Item_DuctTape"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Silencers: LMG 6.5mm
+			class muzzle_snds_H_MG: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sound Suppressor LMG (6.5 mm)";
+					pictureItem = "muzzle_snds_H_MG";
+					category = "Silencers";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "muzzle_snds_H_MG"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_Can_Empty"},
+							{2, "Exile_Item_DuctTape"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Silencers: 7.62mm
+			class muzzle_snds_B: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Sound Suppressor (7.62 mm)";
+					pictureItem = "muzzle_snds_B";
+					category = "Silencers";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = 
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "muzzle_snds_B"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_JunkMetal"},
+							{1, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_Can_Empty"},
+							{2, "Exile_Item_DuctTape"}
+						};
+				};
+			//	class Craft762Suppressor: Exile_AbstractCraftingRecipe  
+			//		{
+			//			name = "Craft 7.62 Suppressor";
+			//			pictureItem = "";
+			//			requiredInteractionModelGroup = "AdvancedWorkbench";
+			//			tools[] = 
+			//				{
+			//					"Exile_Item_Grinder",
+			//					"Exitem_torch",
+			//					"Exile_Item_Hammer"
+			//				};
+			//			returnedItems[] = 
+			//				{
+			//					{1, "Exitem_blueprint_762suppressor"},
+			//					{1, "muzzle_snds_B"}
+			//				};
+			//			components[] = 
+			//				{
+			//					{1, "Exitem_blueprint_762suppressor"},
+			//					{3, "Exile_Item_MetalPole"},
+			//					{1, "Exile_Item_Can_Empty"},
+			//					{1, "Exile_Item_DuctTape"},
+			//					{1, "Exitem_nails"}
+			//				};
+			//		};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Attachments - Optics
+		// ----------------------------------------------------------------
+		//MiJ Custom Attachments Recipes - Optics: Yorris J2
+			class optic_Yorris: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic Yorris J2";
+					pictureItem = "optic_Yorris";
+					category = "Optics";
+					returnedItems[] =
+						{
+							{1, "optic_Yorris"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"},
+							{1, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: MRD
+			class optic_MRD: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic MRD";
+					pictureItem = "optic_MRD";
+					category = "Optics";
+					returnedItems[] =
+						{
+							{1, "optic_MRD"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"},
+							{1, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: ACO
+			class optic_Aco: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic Aco";
+					pictureItem = "optic_Aco";
+					category = "Optics";
+					returnedItems[] =
+						{
+							{1, "optic_Aco"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: MK17 Holosight
+			class optic_Holosight: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic MK17 Holosight";
+					pictureItem = "optic_Holosight";
+					category = "Optics";
+					returnedItems[] =
+						{
+							{1, "optic_Holosight"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_PlasticBottleEmpty"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: MRCO
+			class optic_MRCO: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic MRCO";
+					pictureItem = "optic_MRCO";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Grinder"};
+					returnedItems[] =
+						{
+							{1, "optic_MRCO"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: DMS
+			class optic_DMS: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic DMS";
+					pictureItem = "optic_DMS";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Grinder"};
+					returnedItems[] =
+						{
+							{1, "optic_DMS"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_MetalPole"},
+							{3, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: ARCO
+			class optic_Arco: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic ARCO";
+					pictureItem = "optic_Arco";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Grinder"};
+					returnedItems[] =
+						{
+							{1, "optic_Arco"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: RCO
+			class optic_Hamr: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic RCO";
+					pictureItem = "optic_Hamr";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Grinder"};
+					returnedItems[] =
+						{
+							{1, "optic_Hamr"}
+						};
+					components[] =
+						{
+							{2, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: SOS
+			class optic_SOS: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic SOS";
+					pictureItem = "optic_SOS";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Screwdriver"};
+					returnedItems[] =
+						{
+							{1, "optic_SOS"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalPole"},
+							{2, "Exile_Item_JunkMetal"},
+							{4, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Attachments Recipes - Optics: LRPS
+			class optic_LRPS: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic LRPS";
+					pictureItem = "optic_LRPS";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					tools[] = {"Exile_Item_Screwdriver"};
+					returnedItems[] =
+						{
+							{1, "optic_LRPS"}
+						};
+					components[] =
+						{
+							{4, "Exile_Item_MetalPole"},
+							{4, "Exile_Item_JunkMetal"},
+							{6, "Exile_Item_LightBulb"}
+						};
+				};
+		//MiJ Custom Optic Recipes -  AMS
+		/*
+			class optic_AMS: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft Optic AMS (Black)";
+					pictureItem = "optic_AMS";
+					category = "Optics";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{1, "optic_AMS"}
+						};
+					components[] =
+						{
+							{1, "Exile_Item_MetalPole"},
+							{1, "Exile_Item_LightBulb"}
+						};
+				};
+		*/
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Not Used - Magazines Construct
+		// ----------------------------------------------------------------
+		//--------------------6.5mm NORMAL-----------------------//
+		/*
+		//MiJ Custom Magazines Recipes (Combine) - 1 x 6.5x39mm STANAG 100Rnd Belt
+			class 100Rnd_65x39_caseless_mag_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 6.5x39mm STANAG 100Rnd Belt fom 30Rnd Mag";
+					pictureItem = "100Rnd_65x39_caseless_mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "100Rnd_65x39_caseless_mag"}
+						};
+					components[] =
+						{
+							{3, "30Rnd_65x39_caseless_mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 3 x 6.5x39mm STANAG 100Rnd Belt
+			class 100Rnd_65x39_caseless_mag_Combine2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 3 x 6.5x39mm STANAG 100Rnd Belt fom 30Rnd Mag";
+					pictureItem = "100Rnd_65x39_caseless_mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{3, "100Rnd_65x39_caseless_mag"}
+						};
+					components[] =
+						{
+							{10, "30Rnd_65x39_caseless_mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 3 x 6.5x39mm Tracer STANAG 100Rnd Belt
+			class 100Rnd_65x39_caseless_mag_Combine_Tracer1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 3 x 6.5x39mm Tracer STANAG 100Rnd Belt fom 30Rnd Mag";
+					pictureItem = "100Rnd_65x39_caseless_mag_Tracer";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{3, "100Rnd_65x39_caseless_mag_Tracer"}
+						};
+					components[] =
+						{
+							{10, "30Rnd_65x39_caseless_mag_Tracer"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 1 x 6.5x39mm 200Rnd Belt
+			class 200Rnd_65x39_cased_Box_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 6.5x39mm 200Rnd Belt from 100Rnd Mag";
+					pictureItem = "200Rnd_65x39_cased_Box";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "200Rnd_65x39_cased_Box"}
+						};
+					components[] =
+						{
+							{2, "100Rnd_65x39_caseless_mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 1 x 6.5x39mm 200Rnd Belt
+			class 200Rnd_65x39_cased_Box_Combine2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 6.5x39mm 200Rnd Belt from 30Rnd Mag";
+					pictureItem = "200Rnd_65x39_cased_Box";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "200Rnd_65x39_cased_Box"}
+						};
+					components[] =
+						{
+							{6, "30Rnd_65x39_caseless_mag"}
+						};
+				};
+		//--------------------7.62mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Combine) - 2 x 7.62x54mm 10Rnd from 20Rnd Mag
+			class 20Rnd_762x51_Mag_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 7.62x51mm 20Rnd from 10Rnd Mag";
+					pictureItem = "20Rnd_762x51_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "20Rnd_762x51_Mag"}
+						};
+					components[] =
+						{
+							{2, "10Rnd_762x54_Mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 1 x 7.62x54mm NATO 150 Round Box from 20 Rnd Mag
+			class 150Rnd_762x51_Box_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 7.62x51mm NATO 150 Rnd Box from 20 Rnd Mag";
+					pictureItem = "150Rnd_762x51_Box";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "150Rnd_762x51_Box"}
+						};
+					components[] =
+						{
+							{7, "20Rnd_762x51_Mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Combine) - 1 x 7.62x54mm NATO 150 Round Box from 10Rnd Mag
+			class 150Rnd_762x51_Box_Combine2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 1 x 7.62x51mm NATO 150 Rnd Box from 10Rnd Mag";
+					pictureItem = "150Rnd_762x51_Box";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "150Rnd_762x51_Box"}
+						};
+					components[] =
+						{
+							{15, "10Rnd_762x54_Mag"}
+						};
+				};
+		//--------------------9.3mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Combine) - 9.3x64mm 150Rnd Mag
+			class 150Rnd_93x64_Mag_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 9.3x64mm 150Rnd Mag from 10Rnd Mag";
+					pictureItem = "150Rnd_93x64_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "150Rnd_93x64_Mag"}
+						};
+					components[] =
+						{
+							{15, "10Rnd_93x64_DMR_05_Mag"}
+						};
+				};
+		//--------------------.338mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Combine) - .338 Lapua Magnum 130Rnd Mag
+			class 130Rnd_338_Mag_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft .338 Lapua Magnum 130Rnd Mag from 10Rnd Mag";
+					pictureItem = "130Rnd_338_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "130Rnd_338_Mag"}
+						};
+					components[] =
+						{
+							{13, "10Rnd_338_Mag"}
+						};
+				};
+		//--------------------12.7mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Combine) - 12.7x108mm 10Rnd Mag
+			class 10Rnd_127x54_Mag_Combine1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 12.7x108mm 10Rnd Mag from 5Rnd Mag";
+					pictureItem = "10Rnd_127x54_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{1, "10Rnd_127x54_Mag"}
+						};
+					components[] =
+						{
+							{2, "5Rnd_127x108_Mag"}
+						};
+				};
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Not Used - Magazines Deconstruct
+		// ----------------------------------------------------------------
+		//--------------------6.5mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 2 x 6.5x39mm 100Rnd Mag from 200Rnd Box
+			class 100Rnd_65x39_caseless_mag_break1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 2 x 6.5x39mm 100Rnd Mag from 200Rnd Belt";
+					pictureItem = "100Rnd_65x39_caseless_mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{2, "100Rnd_65x39_caseless_mag"}
+						};
+					components[] =
+						{
+							{1, "200Rnd_65x39_cased_Box"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 3 x 6.5x39mm 100Rnd Mag from 100Rnd Belt
+			class 100Rnd_65x39_caseless_mag_break_Tracer1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 3 x 6.5x39mm Tracer 30Rnd Mag from 100Rnd Tracer Belt";
+					pictureItem = "30Rnd_65x39_caseless_mag_Tracer";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{3, "30Rnd_65x39_caseless_mag_Tracer"}
+						};
+					components[] =
+						{
+							{1, "100Rnd_65x39_caseless_mag_Tracer"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 6 x 6.5x39mm STANAG Caseless Rounds from 200Rnd Box
+			class 30Rnd_65x39_caseless_mag_break1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 6 x 6.5x39mm STANAG Caseless 30Rnd from 200Rnd Box";
+					pictureItem = "30Rnd_65x39_caseless_mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{6, "30Rnd_65x39_caseless_mag"}
+						};
+					components[] =
+						{
+							{1, "200Rnd_65x39_cased_Box"}
+						};
+				};
+		//--------------------7.62 x 54mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 2 x 7.62x54mm NATO Rounds from 150Rnd Box
+			class 10Rnd_762x54_Mag_break1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 2 x 7.62x54mm Rounds from 7.62x51mm 20 Rounds Mag";
+					pictureItem = "10Rnd_762x54_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{2, "10Rnd_762x54_Mag"}
+						};
+					components[] =
+						{
+							{1, "20Rnd_762x51_Mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 15 x 7.62x54mm Rounds from 150Rnd Box
+			class 10Rnd_762x54_Mag_break2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 15 x 7.62x54mm 10Rnd from 7.62x51mm 150Rnd Box";
+					pictureItem = "10Rnd_762x54_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{15, "10Rnd_762x54_Mag"}
+						};
+					components[] =
+						{
+							{1, "150Rnd_762x51_Box"}
+						};
+				};
+		//--------------------7.62 x 51mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 7 x 7.62x51mm NATO Rounds from 150Rnd Box
+			class 20Rnd_762x51_Mag_break1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 7 x 7.62x51mm NATO 20Rnd from 7.62x51mm 150Rnd Box";
+					pictureItem = "20Rnd_762x51_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{7, "20Rnd_762x51_Mag"}
+						};
+					components[] =
+						{
+							{1, "150Rnd_762x51_Box"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 7 x 7.62x51mm 10Rnd from 150Rnd Box
+			class 20Rnd_762x51_Mag_break2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 7 x 7.62x51mm 20Rnd from 7.62x54mm 150Rnd Box";
+					pictureItem = "20Rnd_762x51_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{7, "20Rnd_762x51_Mag"}
+						};
+					components[] =
+						{
+							{1, "150Rnd_762x54_Box"}
+						};
+				};
+		//--------------------.338mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 13 x .338 Lapua Magnum 10Rnd Mag from 130Rnd Box
+			class 10Rnd_338_Mag_break: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 13 x .338 Lapua Magnum 10Rnd Mag from 130Rnd Box";
+					pictureItem = "10Rnd_338_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{13, "10Rnd_338_Mag"}
+						};
+					components[] =
+						{
+							{1, "130Rnd_338_Mag"}
+						};
+				};
+		//--------------------9.3mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 15 x 9.3x64mm 10Rnd Mag from 150 Rnd Box
+			class 10Rnd_93x64_DMR_05_Mag_break: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 15 x 9.3x64mm 10Rnd Mag from 150 Rnd Box";
+					pictureItem = "10Rnd_93x64_DMR_05_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{15, "10Rnd_93x64_DMR_05_Mag"}
+						};
+					components[] =
+						{
+							{1, "150Rnd_93x64_Mag"}
+						};
+				};
+		//--------------------12.7mm NORMAL-----------------------//
+		//MiJ Custom Magazines Recipes (Break) - 2 x 12.7x108mm 5Rnd Mag from 10Rnd Mag
+			class 5Rnd_127x108_Mag_break: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 2 x 12.7x108mm 5Rnd Mag from 10Rnd Mag";
+					pictureItem = "5Rnd_127x108_Mag";
+					category = "Magazines";
+					returnedItems[] =
+						{
+							{2, "5Rnd_127x108_Mag"}
+						};
+					components[] =
+						{
+							{1, "10Rnd_127x54_Mag"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 2 x 12.7x108mm ASPD Rounds1
+			class 5Rnd_127x108_APDS_Mag_break1: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 2 x 12.7x108mm ASPD 5Rnd";
+					pictureItem = "5Rnd_127x108_APDS_Mag";
+					category = "Magazines";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{2, "5Rnd_127x108_APDS_Mag"}
+						};
+					components[] =
+						{
+							{1, "10Rnd_127x54_Mag"},
+							{1, "HandGrenade"}
+						};
+				};
+		//MiJ Custom Magazines Recipes (Break) - 2 x 12.7x108mm ASPD Rounds2
+			class 5Rnd_127x108_APDS_Mag_break2: Exile_AbstractCraftingRecipe
+				{
+					name = "Craft 2 x 12.7x108mm ASPD 5Rnd";
+					pictureItem = "5Rnd_127x108_APDS_Mag";
+					category = "Magazines";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 1;
+					returnedItems[] =
+						{
+							{2, "5Rnd_127x108_APDS_Mag"}
+						};
+					components[] =
+						{
+							{2, "5Rnd_127x108_Mag"},
+							{1, "HandGrenade"}
+						};
+				};
+		*/
+	
+		/*
+		// ----------------------------------------------------------------
+		// MiJ Custom Recipe: Not Used - Guns Upgrade - MX Series
+		// ----------------------------------------------------------------
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MXC_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXC 6.5mm SAND";
+					pictureItem = "arifle_MXC_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MXC_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_F"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MXC_Black_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXC 6.5mm BLACK";
+					pictureItem = "arifle_MXC_Black_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MXC_Black_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_Black_F"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MX_GL_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXGL 6.5mm SAND";
+					pictureItem = "arifle_MX_GL_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MX_GL_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_F"},
+							{1, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MX_GL_Black_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXGL 6.5mm BLACK";
+					pictureItem = "arifle_MX_GL_Black_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MX_GL_Black_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_Black_F"},
+							{1, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MX_SW_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXSW 6.5mm SAND";
+					pictureItem = "arifle_MX_SW_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MX_SW_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_F"},
+							{1, "Exile_Item_FuelCanisterEmpty"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MX_SW_Black_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXSW 6.5mm BLACK";
+					pictureItem = "arifle_MX_SW_Black_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MX_SW_Black_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_Black_F"},
+							{1, "Exile_Item_FuelCanisterEmpty"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MXM_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXM 6.5mm SAND";
+					pictureItem = "arifle_MXM_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MXM_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_F"},
+							{2, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: NATO MX Series Recipe-- NOT WORKING ATM
+			class arifle_MXM_Black_F: Exile_AbstractCraftingRecipe
+				{
+					name = "NATO MXM 6.5mm BLACK";
+					pictureItem = "arifle_MXM_Black_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_MXM_Black_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_MX_Black_F"},
+							{2, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: OPFOR Katiba Series Recipe--
+			class arifle_Katiba_F: Exile_AbstractCraftingRecipe
+				{
+					name = "Katiba 6.5 mm";
+					pictureItem = "arifle_Katiba_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_Katiba_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_Katiba_C_F"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		// --MiJ Custom Weapons Recipe: OPFOR Katiba Series Recipe--
+			class arifle_Katiba_GL_F: Exile_AbstractCraftingRecipe
+				{
+					name = "Katiba GL 6.5 mm";
+					pictureItem = "arifle_Katiba_GL_F";
+					requiredInteractionModelGroup = "WorkBench";
+					requiresFire = 0;
+					tools[] =
+						{
+							"Exile_Item_Grinder"
+						};
+					returnedItems[] =
+						{
+							{1, "arifle_Katiba_GL_F"}
+						};
+					components[] =
+						{
+							{1, "arifle_Katiba_C_F"},
+							{1, "Exile_Item_JunkMetal"},
+							{2, "Exile_Item_MetalPole"}
+						};
+				};
+		*/
+	};
