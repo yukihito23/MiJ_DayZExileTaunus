@@ -1,0 +1,199 @@
+18: 2, Exitem_rice								// 60% Hunger -30% Thirst -15% health	Extended Items
+Line 25: 5, Exitem_bakedbeans						// 35% Hunger				Extended Items
+Line 26: 5, Exitem_tacticalbacon						// 35% Hunger				Extended Items
+Line 27: 5, Exitem_spam								//-15% Health / +25% Hunger
+Line 28: 5, Exitem_tuna								//-15% Health / +25% Hunger
+Line 29: 5, Exitem_spaghetti							//-15% Health / +25% Hunger
+Line 30: 5, Exitem_meatballs							//-15% Health / +25% Hunger
+Line 31: 5, Exitem_hotdogs							//-15% Health / +25% Hunger
+Line 32: 6, Exitem_cereal_bloodsucker				//+75% Hunger
+Line 33: 6, Exitem_cereal_honeyhoops					//+75% Hunger
+Line 34: 6, Exitem_cereal_squares					//+75% Hunger
+Line 35: 6, Exitem_cereal_stars						//+75% Hunger
+Line 36: 6, Exitem_cereal_kush						//+85% Hunger
+Line 37: 6, Exitem_cereal_rick						//+85% Hunger
+Line 38: 6, Exitem_cereal_crunchin					// 75% Hunger				Extended Items
+Line 56: 4, Exitem_redgull 										// +65% Thirst				Extended Items
+Line 57: 5, Exitem_spirit 										// +50% Thirst				Extended Items
+Line 59: 7, Exitem_franta 										// +45% Thirst				Extended Items
+Line 62: 2, Exitem_glue								// (Extended Items) Recipe to concrete mix
+Line 64: 4, Exitem_book1								//(Extended Items) Recipe to toiletpaper
+Line 65: 4, Exitem_book2								//(Extended Items) Recipe to toiletpaper
+Line 66: 4, Exitem_book3								//(Extended Items) Recipe to toiletpaper
+Line 71: 4, Exitem_money 							//(Extended Items)  Recipe to toiletpaper
+Line 72: 4, Exitem_airhorn 							//(Extended Items) *Needs Recipe*
+Line 73: 4, Exitem_container 						//(Extended Items) Container to make Food
+Line 74: 4, Exitem_pillow_flannel 					//(Extended Items) *Needs Recipe*
+Line 75: 4, Exitem_pillow 							//(Extended Items) *Needs Recipe*
+Line 76: 4, Exitem_bucket 							//(Extended Items) *Needs Recipe*
+Line 77: 4, Exitem_pencil 							//(Extended Items) *Needs Recipe*
+Line 78: 4, Exitem_feathers							//(Extended Items) *Needs Recipe*
+Line 79: 4, Exitem_cloth 							//(Extended Items) *Needs Recipe*
+Line 80: 4, Exitem_can_crushed 						//(Extended Items) *Needs Recipe*
+Line 81: 4, Exitem_can_crushed2						//(Extended Items) Recipe to metal scrap
+Line 85: 4, Exitem_skull 							//(Extended Items) *Needs Recipe*
+Line 89: 1, Exitem_book1								//(Extended Items) Recipe to toiletpaper
+Line 90: 1, Exitem_book2								//(Extended Items) Recipe to toiletpaper
+Line 91: 1, Exitem_book3								//(Extended Items) Recipe to toiletpaper
+Line 96: 1, Exitem_money 							//(Extended Items)  Recipe to toiletpaper
+Line 97: 2, Exitem_canteen 							//(Extended Items) Empty
+Line 98: 2, Exitem_airhorn 							//(Extended Items) *Needs Recipe*
+Line 99: 2, Exitem_glue								// (Extended Items) Recipe to concrete mix
+Line 100: 3, Exitem_container 						//(Extended Items) Container to make Food
+Line 101: 3, Exitem_nails
+Line 102: 3, Exitem_tarp
+Line 104: 3, Exitem_beartrap							//(Extended Items) Recipe to metal scrap
+Line 105: 4, Exitem_pillow_flannel 					//(Extended Items) *Needs Recipe*
+Line 106: 4, Exitem_pillow 							//(Extended Items) *Needs Recipe*
+Line 107: 4, Exitem_bucket 							//(Extended Items) *Needs Recipe*
+Line 108: 4, Exitem_pencil 							//(Extended Items) *Needs Recipe*
+Line 109: 4, Exitem_cloth 							//(Extended Items) *Needs Recipe*
+Line 110: 4, Exitem_can_crushed 						//(Extended Items) *Needs Recipe*
+Line 111: 4, Exitem_can_crushed2						//(Extended Items) Recipe to metal scrap
+Line 116: 4, Exitem_skull 							//(Extended Items) *Needs Recipe*
+Line 120: 1, Exitem_money 							//(Extended Items)  Recipe to toiletpaper
+Line 121: 2, Exitem_canteen 							//(Extended Items) Empty
+Line 122: 3, Exitem_container 						//(Extended Items) Container to make Food
+Line 123: 3, Exitem_tarp
+Line 124: 4, Exitem_pencil 							//(Extended Items) *Needs Recipe*
+Line 125: 4, Exitem_cloth 							//(Extended Items) *Needs Recipe*
+Line 126: 4, Exitem_can_crushed 						//(Extended Items) *Needs Recipe*
+Line 127: 4, Exitem_can_crushed2						//(Extended Items) Recipe to metal scrap
+Line 132: 4, Exitem_skull 							//(Extended Items) *Needs Recipe*
+Line 144: 1, Exitem_container 						// Container to make Food	Extended Items
+Line 148: 4, Exitem_rice								// 60% Hunger -30% Thirst -15% health	Extended Items
+Line 155: 5, Exitem_bakedbeans						// 35% Hunger				Extended Items
+Line 156: 5, Exitem_tacticalbacon						// 35% Hunger				Extended Items
+Line 157: 5, Exitem_spam								//-15% Health / +25% Hunger
+Line 158: 5, Exitem_tuna								//-15% Health / +25% Hunger
+Line 159: 5, Exitem_spaghetti							//-15% Health / +25% Hunger
+Line 160: 5, Exitem_meatballs							//-15% Health / +25% Hunger
+Line 161: 5, Exitem_hotdogs							//-15% Health / +25% Hunger
+Line 162: 6, Exitem_cereal_bloodsucker				//+75% Hunger
+Line 163: 6, Exitem_cereal_honeyhoops					//+75% Hunger
+Line 164: 6, Exitem_cereal_squares					//+75% Hunger
+Line 165: 6, Exitem_cereal_stars						//+75% Hunger
+Line 166: 6, Exitem_cereal_kush						//+85% Hunger
+Line 167: 6, Exitem_cereal_rick						//+85% Hunger
+Line 168: 6, Exitem_cereal_crunchin					// 75% Hunger				Extended Items
+Line 184: 2, Exitem_canteen_fresh 								// +95%	Thirst				Extended Items
+Line 185: 2, Exitem_franta 										// +45% Thirst				Extended Items
+Line 186: 2, Exitem_redgull 										// +65% Thirst				Extended Items
+Line 187: 2, Exitem_spirit 										// +50% Thirst				Extended Items
+Line 191: 10, Exitem_canteen_dirty 								// +20% Thirst -10% Health	Extended Items
+Line 1101: 2, Exitem_bloodbag 						// (Extended Items) +100% Health
+Line 1102: //2, Exitem_surgerykit					// (Extended Items) +95% Health
+Line 1103: 4, Exitem_antibiotic 					// (Extended Items) Perm Cure Infection
+Line 1105: 4, Exitem_firstaid						// (Extended Items) +60% Health
+Line 1106: 6, Exitem_morphine 						// (Extended Items) Walk under 50% Health
+Line 1108: 6, Exitem_painkillers 					// (Extended Items) Health +20%
+Line 1109: 6, Exitem_dressing 						// (Extended Items) Health +15%
+Line 1110: 7, Exitem_splint 						// (Extended Items) Walk under 50% Health
+Line 1112: 7, Exitem_makeshift_bandage
+Line 1113: 7, Exitem_disinfectant 					// (Extended Items) clean dirty bandage
+Line 1114: 7, Exitem_vitamins 						// (Extended Items) Temp Cure Infection
+Line 1115: 10, Exitem_purificationtablets 			// (Extended Items) clean dirty water
+Line 1116: 20, Exitem_bandage_dirty 				// (Extended Items) -5% Health
+Line 1119: 1, Exitem_toolbox						// (Extended Items) Recipe
+Line 1130: 5, Exitem_flashlight 					// (Extended Items) Equipable Object
+Line 1134: 6, Exitem_torch 						// (Extended Items) Base Building
+Line 1141: 6, Exitem_nails
+Line 1143: 6, Exitem_measuringtape
+Line 1148: 8, Exitem_glue							// (Extended Items) Recipe to concrete mix
+Line 1149: 8, Exitem_cinderblock					// (Extended Items) Recipe
+Line 1163: 5, Exitem_flashlight 						// (Extended Items) 
+Line 1166: 6, Exitem_torch 							// (Extended Items) Base Building
+Line 1180: 8, Exitem_glue								// (Extended Items) Recipe to concrete mix
+Line 1185: 8, Exitem_measuringtape
+Line 1186: 8, Exitem_nails
+Line 1216: 1, Exitem_camera 							// (Extended Items) *Need Recipe*
+Line 1217: 1, Exitem_multimeter 						// (Extended Items) *Need Recipe*
+Line 1218: 1, Exitem_electronics						// (Extended Items) Recipe
+Line 1219: 1, Exitem_electricalcomp
+Line 1220: //1, Exitem_blackbox 						// Extended Items
+Line 1221: //1, Exitem_apsi 							// Extended Items
+Line 1227: 1, Exitem_book1								//(Extended Items) Recipe to toiletpaper
+Line 1228: 1, Exitem_book2								//(Extended Items) Recipe to toiletpaper
+Line 1229: 1, Exitem_book3								//(Extended Items) Recipe to toiletpaper
+Line 1234: 1, Exitem_money 							//(Extended Items)  Recipe to toiletpaper
+Line 1235: 2, Exitem_canteen 							//(Extended Items) Empty
+Line 1236: 2, Exitem_airhorn 							//(Extended Items) *Needs Recipe*
+Line 1237: 2, Exitem_glue								// (Extended Items) Recipe to concrete mix
+Line 1238: 3, Exitem_container 						//(Extended Items) Container to make Food
+Line 1239: 3, Exitem_nails
+Line 1240: 3, Exitem_tarp
+Line 1242: 3, Exitem_beartrap							//(Extended Items) Recipe to metal scrap
+Line 1243: 4, Exitem_pillow_flannel 					//(Extended Items) *Needs Recipe*
+Line 1244: 4, Exitem_pillow 							//(Extended Items) *Needs Recipe*
+Line 1245: 4, Exitem_bucket 							//(Extended Items) *Needs Recipe*
+Line 1246: 4, Exitem_pencil 							//(Extended Items) *Needs Recipe*
+Line 1247: 4, Exitem_feathers							//(Extended Items) *Needs Recipe*
+Line 1248: 4, Exitem_cloth 							//(Extended Items) *Needs Recipe*
+Line 1249: 4, Exitem_can_crushed 						//(Extended Items) *Needs Recipe*
+Line 1250: 4, Exitem_can_crushed2						//(Extended Items) Recipe to metal scrap
+Line 1251: 4, Exitem_brick1							//(Extended Items) Recipe to concrete mix
+Line 1252: 4, Exitem_brick2							//(Extended Items) Recipe to concrete mix
+Line 1257: 4, Exitem_woodpile 							//(Extended Items) *Needs Recipe*
+Line 1258: 4, Exitem_skull 							//(Extended Items) *Needs Recipe*
+Line 1259: 4, Exitem_stones
+Line 1260: 4, Exitem_bricks
+Line 1261: 4, Exitem_plywood
+Line 1266: // 1, Exitem_documents 						//(Extended Items) 
+Line 1267: // 1, Exitem_blueprint_pallet_large 		//(Extended Items) 
+Line 1268: // 1, Exitem_blueprint_shelf_large 			//(Extended Items) 
+Line 1269: // 1, Exitem_blueprint_shelf_small			//(Extended Items) 
+Line 1270: // 1, Exitem_blueprint_workbench 			//(Extended Items) 
+Line 1271: // 1, Exitem_blueprint_codelock 			//(Extended Items) 
+Line 1272: // 1, Exitem_blueprint_safe 				//(Extended Items) 
+Line 1273: // 1, Exitem_blueprint_generator 			//(Extended Items) 
+Line 1274: // 1, Exitem_blueprint_flag 				//(Extended Items) 
+Line 1275: // 1, Exitem_blueprint_woodcharge 			//(Extended Items) 
+Line 1276: // 1, Exitem_blueprint_metalcharge 			//(Extended Items) 
+Line 1277: // 1, Exitem_blueprint_concretecharge 		//(Extended Items) 
+Line 1278: // 1, Exitem_blueprint_fortification 		//(Extended Items) 
+Line 1279: // 1, Exitem_blueprint_concretebuilding		//(Extended Items) 
+Line 1280: // 1, Exitem_blueprint_engine 				//(Extended Items) 
+Line 1281: // 1, Exitem_blueprint_rotor 				//(Extended Items) 
+Line 1282: // 1, Exitem_blueprint_9mmsuppressor 		//(Extended Items) 
+Line 1283: // 1, Exitem_blueprint_556suppressor 		//(Extended Items) 
+Line 1284: // 1, Exitem_blueprint_762suppressor 		//(Extended Items) 
+Line 1285: // 1, Exitem_blueprint_beer  				//(Extended Items) 
+Line 1286: // 1, Exitem_blueprint_floodlight  			//(Extended Items) 
+Line 1287: // 1, Exitem_blueprint_laptop 				//(Extended Items) 
+Line 1288: // 1, Exitem_blueprint_metal 				//(Extended Items) 
+Line 1289: // 1, Exitem_blueprint_matches  			//(Extended Items) 
+Line 1290: // 1, Exitem_blueprint_crate 				//(Extended Items) 
+Line 1293: 1, Exitem_meat								//-15% Health / +75% Hunger
+Line 1294: 1, Exitem_meat_cooked						//+15% Health / +100% Hunger
+Line 1295: 1, Exitem_morphineauto						// Recipe usage
+Line 1296: 1, Exitem_orange							// +15% Hunger
+Line 1297: 1, Exitem_pumpkin							// +100% Hunger
+Line 1298: 1, Exitem_c4								//(Extended Items) 
+Line 1299: 1, Exitem_advancedworkbench 				//(Extended Items) 
+Line 1300: 1, Exitem_shelf_small 						//(Extended Items) 
+Line 1301: 1, Exitem_shelf_large 						//(Extended Items) 
+Line 1302: 1, Exitem_pallet_large						//(Extended Items) 
+Line 1303: 1, Exitem_board 							//(Extended Items) 
+Line 1304: 1, Exitem_rice_cooked 						//(Extended Items) 
+Line 1305: 1, Exitem_bakedbeans_cooked 				//(Extended Items) 
+Line 1306: 1, Exitem_tacticalbacon_cooked 				//(Extended Items) 
+Line 1307: 1, Exitem_canteen_coffee 					//(Extended Items) 
+Line 1308: 1, Exitem_canteen_salt	 					//(Extended Items) 
+Line 1309: 1, Exitem_container_soup 					//(Extended Items) 
+Line 1310: 1, Exitem_container_beef 					//(Extended Items) 
+Line 1311: 1, Exitem_windshield						//(Extended Items) Recipe
+Line 1312: 1, Exitem_rotor 							//(Extended Items) 
+Line 1313: 1, Exitem_breifcase 						//(Extended Items) 
+Line 1314: 1, Exitem_gascooker 						//(Extended Items) Fireplace
+Line 1315: 1, Exitem_briefcase							//(Extended Items) 
+Line 1316: 1, Exitem_carbattery 						//(Extended Items) *Need Recipe*
+Line 1317: 1, Exitem_engine 							//(Extended Items) *Need Recipe*
+Line 1318: 1, Exitem_fueltank							//(Extended Items) 
+Line 1319: 1, Exitem_trucktire							//(Extended Items) 
+Line 1321: 1, Exitem_peptobismol
+Line 1322: 1, Exitem_drum
+Line 1323: 1, Exitem_scrapmetal
+Line 1324: 1, Exitem_cooking_pot
+Line 1325: 1, Exitem_tire_repair_kit
+Line 1326: 1, Exitem_watercatchment
+Line 1327: 1, Exitem_cot
